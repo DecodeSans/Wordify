@@ -1,82 +1,11 @@
-const indexPath = "./data/index.json";
-let dictionaryIndex = {};
+function loadWord(word) {
+  // Convert to lowercase to match the data structure (e.g. data/w/wonder.json)
+  const lowerWord = word.toLowerCase();
+  const firstLetter = lowerWord[0];
 
-// Load index.json when app starts
-fetch(indexPath)
-  .then(response => response.json())
-  .then(data => {
-    dictionaryIndex = data;
-  })
-  .catch(error => {
-    console.error("Failed to load index.json", error);
-  });
-
-// Search button function (called from HTML)
-function searchWord() {
-  const input = document.getElementById("searchInput").value.trim().toLowerCase();
-  const resultDiv = document.getElementById("result");
-
-  if (!input) {
-    resultDiv.innerHTML = "⚠️ Please enter a word";
-    return;
-  }
-
-  // Find the word in index.json
-  let foundLetter = null;
-
-  for (let letter in dictionaryIndex) {
-    if (dictionaryIndex[letter].includes(input)) {
-      foundLetter = letter.toLowerCase();
-      break;
-    }
-  }
-
-  if (!foundLetter) {
-    resultDiv.innerHTML = "❌ Word not found";
-    return;
-  }
-
-  // Load the word JSON file
-  const wordPath = `./data/${foundLetter}/${input}.json`;
-
-  fetch(wordPath)
-    .then(response => response.json())
-    .then(data => {
-      displayWord(data[input]);
-    })
-    .catch(error => {
-      console.error(error);
-      resultDiv.innerHTML = "❌ Meaning file not found";
+  return fetch(`data/${firstLetter}/${lowerWord}.json`)
+    .then(res => {
+      if (!res.ok) throw new Error("Word not found");
+      return res.json();
     });
-}
-
-// Display word meaning
-function displayWord(wordData) {
-  const resultDiv = document.getElementById("result");
-
-  let html = `
-    <h2>${wordData.word}</h2>
-    <p><strong>Phonetic:</strong> ${wordData.phonetic}</p>
-    <p><strong>Part of Speech:</strong> ${wordData.part_of_speech.join(", ")}</p>
-  `;
-
-  for (let pos in wordData.meanings) {
-    html += `<h3>${pos.toUpperCase()}</h3>`;
-    wordData.meanings[pos].forEach(item => {
-      html += `
-        <p>• ${item.definition}<br>
-        <em>${item.example}</em></p>
-      `;
-    });
-  }
-
-  if (wordData.synonyms) {
-    html += `<p><strong>Synonyms:</strong> ${wordData.synonyms.join(", ")}</p>`;
-  }
-
-  if (wordData.antonyms) {
-    html += `<p><strong>Antonyms:</strong> ${wordData.antonyms.join(", ")}</p>`;
-  }
-
-  resultDiv.innerHTML = html;
 }
