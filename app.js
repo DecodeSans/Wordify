@@ -1,3 +1,12 @@
+/* -------------------------
+   Utility: Format Labels
+-------------------------- */
+function formatLabel(key) {
+  return key
+    .replace(/_/g, " ") // remove underscores
+    .replace(/\b\w/g, (c) => c.toUpperCase()); // capitalize words
+}
+
 function searchWord() {
   const searchInput = document.getElementById("searchInput");
   const resultDiv = document.getElementById("result");
@@ -11,11 +20,11 @@ function searchWord() {
   resultDiv.innerHTML = "<p>Searching...</p>";
 
   loadWord(word)
-    .then((data) => {
-      displayResult(data);
+    .then((entry) => {
+      displayResult(entry);
     })
-    .catch((error) => {
-      resultDiv.innerHTML = `<p>Word not found.</p>`;
+    .catch(() => {
+      resultDiv.innerHTML = `<p>❌ Word not found</p>`;
     });
 }
 
@@ -25,71 +34,95 @@ function loadWord(word) {
   const firstLetter = lowerWord[0];
 
   return fetch(`data/${firstLetter}/${lowerWord}.json`)
-    .then(res => {
+    .then((res) => {
       if (!res.ok) throw new Error("Word not found");
       return res.json();
     });
 }
 
-function displayResult(data) {
+function displayResult(entry) {
   const resultDiv = document.getElementById("result");
-  resultDiv.innerHTML = "";
 
-  // Title and Phonetic
-  const title = document.createElement("h2");
-  title.textContent = data.word;
-  resultDiv.appendChild(title);
+  resultDiv.innerHTML = `
+    <h2>${entry.word}</h2>
+    <p><em>${entry.phonetic || ""}</em></p>
 
-  if (data.phonetic) {
-    const phonetic = document.createElement("p");
-    phonetic.innerHTML = `<em>${data.phonetic}</em>`;
-    resultDiv.appendChild(phonetic);
-  }
+    <div class="section">
+      <h3>Meanings</h3>
+      ${Object.entries(entry.meanings || {})
+        .map(
+          ([pos, meanings]) =>
+            `<b>${formatLabel(pos)}</b>
+         <ul>
+           ${meanings
+             .map(
+               (m) =>
+                 `<li>
+                ${m.definition}
+                ${m.example ? `<br><small>Example: ${m.example}</small>` : ""}
+              </li>`
+             )
+             .join("")}
+         </ul>`
+        )
+        .join("")}
+    </div>
 
-  // Meanings
-  if (data.meanings) {
-    for (const [partOfSpeech, definitions] of Object.entries(data.meanings)) {
-      const section = document.createElement("div");
-      section.className = "section";
-
-      const h3 = document.createElement("h3");
-      h3.textContent = partOfSpeech;
-      section.appendChild(h3);
-
-      const ul = document.createElement("ul");
-      definitions.forEach((def) => {
-        const li = document.createElement("li");
-        li.innerHTML = `${def.definition}`;
-        if (def.example) {
-          li.innerHTML += ` <small>"${def.example}"</small>`;
-        }
-        ul.appendChild(li);
-      });
-      section.appendChild(ul);
-      resultDiv.appendChild(section);
+    ${
+      entry.tense_forms
+        ? `
+    <div class="section">
+      <h3>Tense Forms</h3>
+      <ul>
+        ${Object.entries(entry.tense_forms)
+          .map(
+            ([k, v]) => `
+            <li>
+              <strong>${formatLabel(k)}</strong>: ${v}
+            </li>`
+          )
+          .join("")}
+      </ul>
+    </div>`
+        : ""
     }
-  }
 
-  // Synonyms & Antonyms Helper
-  const createListSection = (title, items) => {
-    if (items && items.length > 0) {
-      const section = document.createElement("div");
-      section.className = "section";
-      section.innerHTML = `<h3>${title}</h3>`;
-      const list = document.createElement("div");
-      list.className = "list";
-      items.forEach((item) => {
-        const span = document.createElement("span");
-        span.textContent = item;
-        list.appendChild(span);
-      });
-      section.appendChild(list);
-      resultDiv.appendChild(section);
+    ${
+      entry.synonyms && entry.synonyms.length > 0
+        ? `
+    <div class="section">
+      <h3>Synonyms</h3>
+      <div class="list">
+        ${entry.synonyms.map((s) => `<span>${s}</span>`).join("")}
+      </div>
+    </div>`
+        : ""
     }
-  };
 
-  createListSection("Synonyms", data.synonyms);
-  createListSection("Antonyms", data.antonyms);
+    ${
+      entry.antonyms && entry.antonyms.length > 0
+        ? `
+    <div class="section">
+      <h3>Antonyms</h3>
+      <div class="list">
+        ${entry.antonyms.map((a) => `<span>${a}</span>`).join("")}
+      </div>
+    </div>`
+        : ""
+    }
+
+    ${
+      entry.usage_examples && entry.usage_examples.length > 0
+        ? `
+    <div class="section">
+      <h3>Usage Examples</h3>
+      <ul>
+        ${entry.usage_examples.map((e) => `<li>${e}</li>`).join("")}
+      </ul>
+    </div>`
+        : ""
+    }
+  `;
 }
 
 // Add Enter key listener
