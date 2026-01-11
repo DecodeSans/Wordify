@@ -1,71 +1,92 @@
-const express = require('express');
-const path = require('path');
-const fs = require('fs');
+async function searchWord() {
+  const searchInput = document.getElementById('searchInput');
+  const resultDiv = document.getElementById('result');
+  const word = searchInput.value.trim();
 
-const app = express();
-const PORT = process.env.PORT || 3000;
-
-// Middleware to parse JSON bodies
-app.use(express.json());
-
-// Serve static files if needed (e.g., for a frontend)
-app.use(express.static(path.join(__dirname, 'public')));
-
-// API Endpoint to get a specific word
-app.get('/api/word/:word', (req, res) => {
-  const word = req.params.word.toLowerCase();
-
-  // Basic validation to ensure the word contains only letters
-  if (!word || !/^[a-z]+$/.test(word)) {
-    return res.status(400).json({ error: 'Invalid word format' });
+  if (!word) {
+    resultDiv.innerHTML = '<p>Please enter a word.</p>';
+    return;
   }
 
-  const firstLetter = word.charAt(0);
-  const filePath = path.join(__dirname, 'data', firstLetter, `${word}.json`);
+  // Show loading state
+  resultDiv.innerHTML = '<p style="text-align:center; color: var(--text-muted);">Searching...</p>';
 
-  fs.readFile(filePath, 'utf8', (err, data) => {
-    if (err) {
-      if (err.code === 'ENOENT') {
-        return res.status(404).json({ error: 'Word not found' });
+  try {
+    const response = await fetch(`/api/word/${word}`);
+
+    if (!response.ok) {
+      if (response.status === 404) {
+        resultDiv.innerHTML = `<p>Word not found.</p>`;
+      } else {
+        resultDiv.innerHTML = `<p>Error occurred while fetching data.</p>`;
       }
-      console.error('Error reading file:', err);
-      return res.status(500).json({ error: 'Internal Server Error' });
+      return;
     }
 
-    try {
-      const wordData = JSON.parse(data);
-      res.json(wordData);
-    } catch (parseError) {
-      console.error('Error parsing JSON:', parseError);
-      res.status(500).json({ error: 'Error processing word data' });
+    const data = await response.json();
+    displayResult(data);
+  } catch (error) {
+    console.error('Error:', error);
+    resultDiv.innerHTML = `<p>Something went wrong.</p>`;
+  }
+}
+
+function displayResult(data) {
+  const resultDiv = document.getElementById('result');
+  let html = `<h2>${data.word}</h2>`;
+
+  if (data.phonetic) {
+    html += `<p><em>${data.phonetic}</em></p>`;
+  }
+
+  // Meanings
+  if (data.meanings) {
+    for (const [partOfSpeech, definitions] of Object.entries(data.meanings)) {
+      html += `<div class="section">
+        <h3>${partOfSpeech}</h3>
+        <ul>
+          ${definitions.map(def => `
+            <li>
+              ${def.definition}
+              ${def.example ? `<small>"${def.example}"</small>` : ''}
+            </li>
+          `).join('')}
+        </ul>
+      </div>`;
     }
-  });
-});
+  }
 
-// API Endpoint to get the index of words
-app.get('/api/index', (req, res) => {
-  const indexPath = path.join(__dirname, 'data', 'index.json');
+  // Synonyms
+  if (data.synonyms && data.synonyms.length > 0) {
+    html += `<div class="section">
+      <h3>Synonyms</h3>
+      <div class="list">
+        ${data.synonyms.map(syn => `<span>${syn}</span>`).join('')}
+      </div>
+    </div>`;
+  }
 
-  fs.readFile(indexPath, 'utf8', (err, data) => {
-    if (err) {
-      if (err.code === 'ENOENT') {
-        return res.status(404).json({ error: 'Index not found' });
+  // Antonyms
+  if (data.antonyms && data.antonyms.length > 0) {
+    html += `<div class="section">
+      <h3>Antonyms</h3>
+      <div class="list">
+        ${data.antonyms.map(ant => `<span>${ant}</span>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  resultDiv.innerHTML = html;
+}
+
+// Add event listener for Enter key on the input
+document.addEventListener('DOMContentLoaded', () => {
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) {
+    searchInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        searchWord();
       }
-      console.error('Error reading index:', err);
-      return res.status(500).json({ error: 'Internal Server Error' });
-    }
-
-    try {
-      const indexData = JSON.parse(data);
-      res.json(indexData);
-    } catch (parseError) {
-      console.error('Error parsing JSON:', parseError);
-      res.status(500).json({ error: 'Error processing index data' });
-    }
-  });
-});
-
-// Start the server
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+    });
+  }
 });
