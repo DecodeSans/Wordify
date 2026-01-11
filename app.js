@@ -1,92 +1,82 @@
-async function searchWord() {
-  const searchInput = document.getElementById('searchInput');
-  const resultDiv = document.getElementById('result');
-  const word = searchInput.value.trim();
+const indexPath = "./data/index.json";
+let dictionaryIndex = {};
 
-  if (!word) {
-    resultDiv.innerHTML = '<p>Please enter a word.</p>';
+// Load index.json when app starts
+fetch(indexPath)
+  .then(response => response.json())
+  .then(data => {
+    dictionaryIndex = data;
+  })
+  .catch(error => {
+    console.error("Failed to load index.json", error);
+  });
+
+// Search button function (called from HTML)
+function searchWord() {
+  const input = document.getElementById("searchInput").value.trim().toLowerCase();
+  const resultDiv = document.getElementById("result");
+
+  if (!input) {
+    resultDiv.innerHTML = "⚠️ Please enter a word";
     return;
   }
 
-  // Show loading state
-  resultDiv.innerHTML = '<p style="text-align:center; color: var(--text-muted);">Searching...</p>';
+  // Find the word in index.json
+  let foundLetter = null;
 
-  try {
-    const response = await fetch(`/api/word/${word}`);
-
-    if (!response.ok) {
-      if (response.status === 404) {
-        resultDiv.innerHTML = `<p>Word not found.</p>`;
-      } else {
-        resultDiv.innerHTML = `<p>Error occurred while fetching data.</p>`;
-      }
-      return;
+  for (let letter in dictionaryIndex) {
+    if (dictionaryIndex[letter].includes(input)) {
+      foundLetter = letter.toLowerCase();
+      break;
     }
-
-    const data = await response.json();
-    displayResult(data);
-  } catch (error) {
-    console.error('Error:', error);
-    resultDiv.innerHTML = `<p>Something went wrong.</p>`;
   }
+
+  if (!foundLetter) {
+    resultDiv.innerHTML = "❌ Word not found";
+    return;
+  }
+
+  // Load the word JSON file
+  const wordPath = `./data/${foundLetter}/${input}.json`;
+
+  fetch(wordPath)
+    .then(response => response.json())
+    .then(data => {
+      displayWord(data[input]);
+    })
+    .catch(error => {
+      console.error(error);
+      resultDiv.innerHTML = "❌ Meaning file not found";
+    });
 }
 
-function displayResult(data) {
-  const resultDiv = document.getElementById('result');
-  let html = `<h2>${data.word}</h2>`;
+// Display word meaning
+function displayWord(wordData) {
+  const resultDiv = document.getElementById("result");
 
-  if (data.phonetic) {
-    html += `<p><em>${data.phonetic}</em></p>`;
+  let html = `
+    <h2>${wordData.word}</h2>
+    <p><strong>Phonetic:</strong> ${wordData.phonetic}</p>
+    <p><strong>Part of Speech:</strong> ${wordData.part_of_speech.join(", ")}</p>
+  `;
+
+  for (let pos in wordData.meanings) {
+    html += `<h3>${pos.toUpperCase()}</h3>`;
+    wordData.meanings[pos].forEach(item => {
+      html += `
+        <p>• ${item.definition}<br>
+        <em>${item.example}</em></p>
+      `;
+    });
   }
 
-  // Meanings
-  if (data.meanings) {
-    for (const [partOfSpeech, definitions] of Object.entries(data.meanings)) {
-      html += `<div class="section">
-        <h3>${partOfSpeech}</h3>
-        <ul>
-          ${definitions.map(def => `
-            <li>
-              ${def.definition}
-              ${def.example ? `<small>"${def.example}"</small>` : ''}
-            </li>
-          `).join('')}
-        </ul>
-      </div>`;
-    }
+  if (wordData.synonyms) {
+    html += `<p><strong>Synonyms:</strong> ${wordData.synonyms.join(", ")}</p>`;
   }
 
-  // Synonyms
-  if (data.synonyms && data.synonyms.length > 0) {
-    html += `<div class="section">
-      <h3>Synonyms</h3>
-      <div class="list">
-        ${data.synonyms.map(syn => `<span>${syn}</span>`).join('')}
-      </div>
-    </div>`;
-  }
-
-  // Antonyms
-  if (data.antonyms && data.antonyms.length > 0) {
-    html += `<div class="section">
-      <h3>Antonyms</h3>
-      <div class="list">
-        ${data.antonyms.map(ant => `<span>${ant}</span>`).join('')}
-      </div>
-    </div>`;
+  if (wordData.antonyms) {
+    html += `<p><strong>Antonyms:</strong> ${wordData.antonyms.join(", ")}</p>`;
   }
 
   resultDiv.innerHTML = html;
 }
-
-// Add event listener for Enter key on the input
-document.addEventListener('DOMContentLoaded', () => {
-  const searchInput = document.getElementById('searchInput');
-  if (searchInput) {
-    searchInput.addEventListener('keypress', (e) => {
-      if (e.key === 'Enter') {
-        searchWord();
-      }
-    });
-  }
-});
