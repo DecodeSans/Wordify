@@ -1,0 +1,40 @@
+{
+ "word": "control",
+ "phonetic": "/kənˈtroʊl/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The power to influence or direct people's behavior or the course of events.",
+ "example": "The situation is under control."
+ },
+ {
+ "definition": "A mechanism that regulates the operation of a machine.",
+ "example": "The volume control on the stereo."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Determine the behavior or supervise the running of.",
+ "example": "He controls the company's finances."
+ },
+ {
+ "definition": "Limit the level, intensity, or numbers of.",
+ "example": "She struggled to control her temper."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "control",
+ "past": "controlled",
+ "past_participle": "controlled",
+ "present_participle": "controlling",
+ "third_person": "controls"
+ },
+ "synonyms": ["manage", "direct", "regulate", "dominate", "restrain"],
+ "antonyms": ["chaos", "anarchy", "release", "surrender"],
+ "usage_examples": [
+ "She lost control of the car on the ice.",
+ "Parents should control what their children watch on TV."
+ ]
+}

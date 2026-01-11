@@ -1,0 +1,36 @@
+{
+ "word": "conflict",
+ "phonetic": "/ˈkɒnflɪkt/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A serious disagreement or argument.",
+ "example": "There was a conflict between the two sides."
+ },
+ {
+ "definition": "A prolonged armed struggle.",
+ "example": "The conflict in the region has lasted for years."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Be incompatible or at variance; clash.",
+ "example": "My schedule conflicts with the meeting time."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "conflict",
+ "past": "conflicted",
+ "past_participle": "conflicted",
+ "present_participle": "conflicting",
+ "third_person": "conflicts"
+ },
+ "synonyms": ["dispute", "clash", "disagreement", "battle", "struggle"],
+ "antonyms": ["agreement", "peace", "harmony", "concord"],
+ "usage_examples": [
+ "We need to resolve this conflict peacefully.",
+ "The reports conflict with each other."
+ ]
+}

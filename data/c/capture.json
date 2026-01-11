@@ -1,0 +1,33 @@
+{
+ "word": "capture",
+ "phonetic": "/ˈkæptʃər/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "To take someone as a prisoner, or to take something into your possession, especially by force.",
+ "example": "The soldiers captured the enemy's stronghold."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The act of taking someone as a prisoner, or taking something into your possession, especially by force.",
+ "example": "The capture of the city was a turning point in the war."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "capture",
+ "past": "captured",
+ "past_participle": "captured",
+ "present_participle": "capturing",
+ "third_person": "captures"
+ },
+ "synonyms": ["seize", "catch", "arrest", "apprehend"],
+ "antonyms": ["release", "free", "liberate"],
+ "usage_examples": [
+ "The police were able to capture the suspect after a long chase. [3]",
+ "The photographer managed to capture the beauty of the sunset in her picture."
+ ]
+}
+

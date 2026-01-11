@@ -1,0 +1,32 @@
+{
+ "word": "luggage",
+ "phonetic": "/ˈlʌɡɪdʒ/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "Suitcases or other bags in which to pack personal belongings for traveling.",
+ "example": "We checked our luggage in at the airport."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Carry or drag (a heavy or bulky object) with great effort.",
+ "example": "She began to lug her suitcase up the stairs."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "lug",
+ "past": "lugged",
+ "past_participle": "lugged",
+ "present_participle": "lugging",
+ "third_person": "lugs"
+ },
+ "synonyms": ["baggage", "suitcases", "bags", "gear", "belongings", "haul", "drag", "carry"],
+ "antonyms": ["drop", "leave"],
+ "usage_examples": [
+ "Do not leave your luggage unattended.",
+ "She packed her luggage for the trip."
+ ]
+}

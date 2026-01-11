@@ -1,0 +1,36 @@
+{
+ "word": "language",
+ "phonetic": "/ˈlæŋɡwɪdʒ/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The principal method of human communication, consisting of words used in a structured and conventional way and conveyed by speech, writing, or gesture.",
+ "example": "A study of the development of language in children."
+ },
+ {
+ "definition": "A system of communication used by a particular country or community.",
+ "example": "The book was translated into twenty-five languages."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To express in language; to put into words (rare/technical).",
+ "example": "She struggled to language her complex emotions."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "language",
+ "past": "languaged",
+ "past_participle": "languaged",
+ "present_participle": "languaging",
+ "third_person": "languages"
+ },
+ "synonyms": ["speech", "communication", "tongue", "dialect", "vocabulary"],
+ "antonyms": [],
+ "usage_examples": [
+ "She has a great aptitude for learning languages.",
+ "The language of the law can be difficult to understand."
+ ]
+}

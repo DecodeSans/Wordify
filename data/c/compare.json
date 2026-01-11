@@ -1,0 +1,40 @@
+{
+ "word": "compare",
+ "phonetic": "/kəmˈpɛər/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Estimate, measure, or note the similarity or dissimilarity between.",
+ "example": "Individual schools compared their facilities with those of others."
+ },
+ {
+ "definition": "Point out the resemblances to; liken to.",
+ "example": "Her novel was compared to the work of Daniel Defoe."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The act or instance of comparing; a comparison.",
+ "example": "A comparison of the two options helps in decision making."
+ },
+ {
+ "definition": "Comparison (chiefly in the phrase 'beyond compare').",
+ "example": "Her beauty is beyond compare."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "compare",
+ "past": "compared",
+ "past_participle": "compared",
+ "present_participle": "comparing",
+ "third_person": "compares"
+ },
+ "synonyms": ["contrast", "juxtapose", "collate", "liken", "weigh"],
+ "antonyms": ["ignore", "disregard"],
+ "usage_examples": [
+ "We compared the two cars before buying one.",
+ "You cannot compare these two situations."
+ ]
+}

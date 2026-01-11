@@ -1,0 +1,40 @@
+{
+ "word": "culture",
+ "phonetic": "/ˈkʌltʃər/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The arts and other manifestations of human intellectual achievement regarded collectively.",
+ "example": "20th century popular culture."
+ },
+ {
+ "definition": "The ideas, customs, and social behavior of a particular people or society.",
+ "example": "They are studying the culture of the ancient Greeks."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Maintain (tissue cells, bacteria, etc.) in conditions suitable for growth.",
+ "example": "The virus was cultured in the laboratory."
+ },
+ {
+ "definition": "Grow or produce (something, such as pearls) by a specific process.",
+ "example": "They culture pearls in this region."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "culture",
+ "past": "cultured",
+ "past_participle": "cultured",
+ "present_participle": "culturing",
+ "third_person": "cultures"
+ },
+ "synonyms": ["tradition", "customs", "heritage", "society", "civilization"],
+ "antonyms": ["nature"],
+ "usage_examples": [
+ "The city is known for its vibrant culture.",
+ "It is important to understand different cultures."
+ ]
+}

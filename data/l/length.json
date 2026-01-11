@@ -1,0 +1,36 @@
+{
+ "word": "length",
+ "phonetic": "/ˈlɛŋkθ/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The measurement or extent of something from end to end.",
+ "example": "The length of the table is two meters."
+ },
+ {
+ "definition": "The amount of time occupied by something.",
+ "example": "The length of the movie is two hours."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Make or become longer.",
+ "example": "You need to lengthen the skirt."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "lengthen",
+ "past": "lengthened",
+ "past_participle": "lengthened",
+ "present_participle": "lengthening",
+ "third_person": "lengthens"
+ },
+ "synonyms": ["distance", "extent", "duration", "span", "reach"],
+ "antonyms": ["width", "shortness", "brevity"],
+ "usage_examples": [
+ "She swam the entire length of the pool.",
+ "We discussed the issue at some length."
+ ]
+}

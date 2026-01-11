@@ -1,0 +1,46 @@
+{
+ "word": "convenient",
+ "phonetic": "/kənˈviːniənt/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Fitting in well with a person's needs, activities, and plans.",
+ "example": "I phoned your office to confirm that this date is convenient."
+ },
+ {
+ "definition": "Involving little trouble or effort.",
+ "example": "It's very convenient to pay by credit card."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The state of being able to proceed with something with little effort or difficulty.",
+ "example": "We did it for the convenience of our customers."
+ },
+ {
+ "definition": "A thing that contributes to an easy and effortless way of life.",
+ "example": "The kitchen is equipped with all modern conveniences."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Come or bring together for a meeting or activity; assemble.",
+ "example": "He convened a meeting of the members."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "convene",
+ "past": "convened",
+ "past_participle": "convened",
+ "present_participle": "convening",
+ "third_person": "convenes"
+ },
+ "synonyms": ["suitable", "appropriate", "handy", "useful", "accessible"],
+ "antonyms": ["inconvenient", "troublesome", "awkward"],
+ "usage_examples": [
+ "The house is convenient to shops and schools.",
+ "Please let me know a convenient time to meet."
+ ]
+}

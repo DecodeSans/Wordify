@@ -1,0 +1,40 @@
+{
+ "word": "liberty",
+ "phonetic": "/ˈlɪbərti/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The state of being free within society from oppressive restrictions imposed by authority on one's way of life, behavior, or political views.",
+ "example": "They fought for their liberty."
+ },
+ {
+ "definition": "The power or scope to act as one pleases.",
+ "example": "Individuals should have the liberty to do as they please."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Set (someone) free from a situation, especially imprisonment or slavery, in which their liberty is severely restricted.",
+ "example": "The prisoners were liberated by the army."
+ },
+ {
+ "definition": "Free (a country, city, or people) from enemy occupation.",
+ "example": "The city was liberated after a month of fighting."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "liberate",
+ "past": "liberated",
+ "past_participle": "liberated",
+ "present_participle": "liberating",
+ "third_person": "liberates"
+ },
+ "synonyms": ["freedom", "independence", "autonomy", "sovereignty"],
+ "antonyms": ["slavery", "captivity", "oppression"],
+ "usage_examples": [
+ "The statue of Liberty is a symbol of freedom.",
+ "He took the liberty of ordering for everyone."
+ ]
+}

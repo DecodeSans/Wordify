@@ -1,0 +1,36 @@
+{
+ "word": "comfort",
+ "phonetic": "/ˈkʌmfərt/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A state of physical ease and freedom from pain or constraint.",
+ "example": "They traveled in comfort."
+ },
+ {
+ "definition": "The easing or alleviation of a person's feelings of grief or distress.",
+ "example": "She found comfort in her friends."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Ease the grief or distress of; console.",
+ "example": "The mother comforted her child."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "comfort",
+ "past": "comforted",
+ "past_participle": "comforted",
+ "present_participle": "comforting",
+ "third_person": "comforts"
+ },
+ "synonyms": ["solace", "consolation", "ease", "relief", "soothe"],
+ "antonyms": ["discomfort", "distress", "misery", "aggravate"],
+ "usage_examples": [
+ "He is a man of great comfort.",
+ "I tried to comfort him after the bad news."
+ ]
+}

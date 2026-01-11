@@ -1,0 +1,42 @@
+{
+ "word": "clever",
+ "phonetic": "/ˈklɛvər/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Quick to understand, learn, and devise or apply ideas; intelligent.",
+ "example": "She is a clever student who learns quickly."
+ },
+ {
+ "definition": "Skilled at doing or achieving something; talented.",
+ "example": "He is clever with his hands."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The quality of being clever; intelligence or ingenuity.",
+ "example": "Her cleverness helped her solve the puzzle."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To make clever or smart (rare/dialectal).",
+ "example": "He tried to clever up his appearance."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "clever",
+ "past": "clevered",
+ "past_participle": "clevered",
+ "present_participle": "clevering",
+ "third_person": "clevers"
+ },
+ "synonyms": ["smart", "intelligent", "bright", "ingenious", "sharp"],
+ "antonyms": ["stupid", "foolish", "naive"],
+ "usage_examples": [
+ "It was a clever plan to get us out of trouble.",
+ "You are very clever to solve that puzzle."
+ ]
+}

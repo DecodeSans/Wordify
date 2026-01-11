@@ -1,0 +1,36 @@
+{
+ "word": "link",
+ "phonetic": "/lɪŋk/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A relationship between two things or situations, especially where one affects the other.",
+ "example": "Investigating the link between diet and cancer."
+ },
+ {
+ "definition": "A ring or loop in a chain.",
+ "example": "A chain is only as strong as its weakest link."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Make, form, or suggest a connection with or between.",
+ "example": "Rumors linked his name with the scandal."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "link",
+ "past": "linked",
+ "past_participle": "linked",
+ "present_participle": "linking",
+ "third_person": "links"
+ },
+ "synonyms": ["connection", "relationship", "association", "join", "connect"],
+ "antonyms": ["separation", "disconnection", "detach"],
+ "usage_examples": [
+ "The investigation revealed a link between the two crimes.",
+ "The new bridge will link the island to the mainland."
+ ]
+}

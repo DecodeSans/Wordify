@@ -1,0 +1,36 @@
+{
+ "word": "leisure",
+ "phonetic": "/ˈlɛʒər/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "Use of free time for enjoyment.",
+ "example": "Increased opportunities for leisure."
+ },
+ {
+ "definition": "Time when one is not working or occupied; free time.",
+ "example": "She has plenty of leisure time."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To pass time at leisure; to idle (rare).",
+ "example": "He leisured away the afternoon."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "leisure",
+ "past": "leisured",
+ "past_participle": "leisured",
+ "present_participle": "leisuring",
+ "third_person": "leisures"
+ },
+ "synonyms": ["free time", "spare time", "relaxation", "recreation", "downtime"],
+ "antonyms": ["work", "labor", "toil"],
+ "usage_examples": [
+ "She looked forward to retirement and a life of leisure.",
+ "These days we have more money and more leisure to enjoy it."
+ ]
+}

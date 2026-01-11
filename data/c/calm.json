@@ -1,0 +1,38 @@
+{
+ "word": "calm",
+ "phonetic": "/kɑːm/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Not showing or feeling nervousness, anger, or other strong emotions.",
+ "example": "She has a very calm manner."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The state of being free from agitation; tranquility.",
+ "example": "The bay was a picture of calm."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Make (someone or something) tranquil and quiet; soothe.",
+ "example": "I tried to calm him down."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "calm",
+ "past": "calmed",
+ "past_participle": "calmed",
+ "present_participle": "calming",
+ "third_person": "calms"
+ },
+ "synonyms": ["serene", "tranquil", "peaceful", "soothe", "pacify"],
+ "antonyms": ["agitated", "stormy", "excite", "agitate"],
+ "usage_examples": [
+ "You must try to stay calm.",
+ "He tried to calm the frightened children."
+ ]
+}

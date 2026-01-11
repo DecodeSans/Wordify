@@ -1,0 +1,40 @@
+{
+ "word": "character",
+ "phonetic": "/ˈkærəktər/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The mental and moral qualities distinctive to an individual.",
+ "example": "Running away was not in keeping with her character."
+ },
+ {
+ "definition": "A person in a novel, play, or movie.",
+ "example": "The author created a very vivid character."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Describe the distinctive nature or features of.",
+ "example": "The report characterized the situation as dangerous."
+ },
+ {
+ "definition": "Be typical or characteristic of.",
+ "example": "Stubbornness characterizes his behavior."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "characterize",
+ "past": "characterized",
+ "past_participle": "characterized",
+ "present_participle": "characterizing",
+ "third_person": "characterizes"
+ },
+ "synonyms": ["personality", "nature", "disposition", "role", "persona"],
+ "antonyms": ["weakness", "dishonesty"],
+ "usage_examples": [
+ "She showed great character in dealing with the crisis.",
+ "He is a colorful character in the local community."
+ ]
+}

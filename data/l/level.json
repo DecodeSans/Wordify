@@ -1,0 +1,42 @@
+{
+ "word": "level",
+ "phonetic": "/ˈlɛvəl/",
+ "part_of_speech": ["noun", "adjective", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A position on a real or imaginary scale of amount, quantity, extent, or quality.",
+ "example": "A high level of unemployment."
+ },
+ {
+ "definition": "A horizontal plane or line with respect to the distance above or below a given point.",
+ "example": "The water level rose."
+ }
+ ],
+ "adjective": [
+ {
+ "definition": "Having a flat and even surface without slopes or bumps.",
+ "example": "We need a level surface."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Give a flat and even surface to.",
+ "example": "They leveled the ground."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "level",
+ "past": "leveled",
+ "past_participle": "leveled",
+ "present_participle": "leveling",
+ "third_person": "levels"
+ },
+ "synonyms": ["flat", "even", "smooth", "grade", "tier", "equalize"],
+ "antonyms": ["uneven", "sloping", "rough"],
+ "usage_examples": [
+ "The library is on the lower level.",
+ "She kept her voice level."
+ ]
+}

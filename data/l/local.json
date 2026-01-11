@@ -1,0 +1,50 @@
+{
+ "word": "local",
+ "phonetic": "/ˈloʊkəl/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Belonging or relating to a particular area or neighborhood, typically exclusively so.",
+ "example": "Researching local history."
+ },
+ {
+ "definition": "Affecting only a particular part of the body.",
+ "example": "A local infection."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "An inhabitant of a particular area or neighborhood.",
+ "example": "The locals are very friendly."
+ },
+ {
+ "definition": "A pub convenient to a person's home (British informal).",
+ "example": "He's down at the local."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Restrict (something) to a particular place.",
+ "example": "The infection was localized in the knee."
+ },
+ {
+ "definition": "Make local in character.",
+ "example": "They localized the software for the Japanese market."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "localize",
+ "past": "localized",
+ "past_participle": "localized",
+ "present_participle": "localizing",
+ "third_person": "localizes"
+ },
+ "synonyms": ["regional", "community", "nearby", "resident", "native"],
+ "antonyms": ["national", "international", "global", "general"],
+ "usage_examples": [
+ "We try to buy local produce.",
+ "She is a well-known local artist."
+ ]
+}

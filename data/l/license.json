@@ -1,0 +1,40 @@
+{
+ "word": "license",
+ "phonetic": "/ˈlaɪsns/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A permit from an authority to own or use something, do a particular thing, or carry on a trade.",
+ "example": "He was disqualified from driving and his license was endorsed."
+ },
+ {
+ "definition": "Freedom to behave as one wishes, especially in a way that results in excessive or unacceptable behavior.",
+ "example": "The government was criticized for giving the army too much license."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Grant a license to (someone or something) to permit the use of something or to allow an activity to take place.",
+ "example": "A pub has to be licensed by the local council."
+ },
+ {
+ "definition": "Authorize the use, performance, or release of (something).",
+ "example": "The company licensed the software to other firms."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "license",
+ "past": "licensed",
+ "past_participle": "licensed",
+ "present_participle": "licensing",
+ "third_person": "licenses"
+ },
+ "synonyms": ["permit", "certificate", "authorize", "allow", "warrant"],
+ "antonyms": ["ban", "prohibit", "forbid"],
+ "usage_examples": [
+ "You need a license to fish in this river.",
+ "They licensed the technology to a foreign company."
+ ]
+}

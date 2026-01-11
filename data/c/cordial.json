@@ -1,0 +1,38 @@
+{
+ "word": "cordial",
+ "phonetic": "/ˈkɔːrdiəl/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Warm and friendly.",
+ "example": "The atmosphere was cordial and relaxed."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "A sweet fruit-flavored drink.",
+ "example": "She offered us some elderflower cordial."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To make cordial; to revive or invigorate (archaic).",
+ "example": "The wine cordialed his spirits."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "cordial",
+ "past": "cordialed",
+ "past_participle": "cordialed",
+ "present_participle": "cordialing",
+ "third_person": "cordials"
+ },
+ "synonyms": ["friendly", "warm", "genial", "affable", "amiable"],
+ "antonyms": ["unfriendly", "hostile", "cold"],
+ "usage_examples": [
+ "He received a cordial welcome.",
+ "They maintained a cordial relationship."
+ ]
+}

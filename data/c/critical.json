@@ -1,0 +1,46 @@
+{
+ "word": "critical",
+ "phonetic": "/ˈkrɪtɪkəl/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Expressing adverse or disapproving comments or judgments.",
+ "example": "He was very critical of the previous leadership."
+ },
+ {
+ "definition": "Having a decisive or crucial importance in the success, failure, or existence of something.",
+ "example": "Temperature is a critical factor."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The expression of disapproval of someone or something based on perceived faults or mistakes.",
+ "example": "He received a lot of criticism for his decision."
+ },
+ {
+ "definition": "A person who expresses an unfavorable opinion of something.",
+ "example": "The critics loved the movie."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Indicate the faults of (someone or something) in a disapproving way.",
+ "example": "The report criticized the government's handling of the crisis."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "criticize",
+ "past": "criticized",
+ "past_participle": "criticized",
+ "present_participle": "criticizing",
+ "third_person": "criticizes"
+ },
+ "synonyms": ["crucial", "vital", "essential", "disapproving", "analytical"],
+ "antonyms": ["unimportant", "complimentary", "minor"],
+ "usage_examples": [
+ "The patient is in a critical condition.",
+ "It is critical to follow the instructions."
+ ]
+}

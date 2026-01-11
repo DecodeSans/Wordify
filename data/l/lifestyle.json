@@ -1,0 +1,36 @@
+{
+ "word": "lifestyle",
+ "phonetic": "/ˈlaɪfstaɪl/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The way in which a person or group lives.",
+ "example": "The benefits of a healthy lifestyle."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To market a product or service by associating it with a particular lifestyle.",
+ "example": "The brand is heavily lifestyled to appeal to young professionals."
+ },
+ {
+ "definition": "To display or act out a particular lifestyle, especially for show (slang).",
+ "example": "He was lifestyling at the resort."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "lifestyle",
+ "past": "lifestyled",
+ "past_participle": "lifestyled",
+ "present_participle": "lifestyling",
+ "third_person": "lifestyles"
+ },
+ "synonyms": ["way of life", "manner of living", "existence", "modus vivendi"],
+ "antonyms": ["survival", "subsistence"],
+ "usage_examples": [
+ "He leads an active lifestyle.",
+ "They enjoy a lavish lifestyle."
+ ]
+}

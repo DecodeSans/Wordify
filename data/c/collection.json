@@ -1,0 +1,40 @@
+{
+ "word": "collection",
+ "phonetic": "/kəˈlɛkʃən/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The action or process of collecting someone or something.",
+ "example": "The collection of refuse is done on Tuesdays."
+ },
+ {
+ "definition": "A group of things or people.",
+ "example": "He has a rare collection of coins."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Bring or gather together (things, typically when scattered or widespread).",
+ "example": "She collected sticks to make a fire."
+ },
+ {
+ "definition": "Call for and receive (something, typically money or payment).",
+ "example": "They are collecting donations for charity."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "collect",
+ "past": "collected",
+ "past_participle": "collected",
+ "present_participle": "collecting",
+ "third_person": "collects"
+ },
+ "synonyms": ["gathering", "assembly", "accumulation", "assortment", "set"],
+ "antonyms": ["dispersal", "scattering", "distribution"],
+ "usage_examples": [
+ "The museum has a fine collection of modern art.",
+ "She added a new doll to her collection."
+ ]
+}

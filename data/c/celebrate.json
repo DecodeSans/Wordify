@@ -1,0 +1,40 @@
+{
+ "word": "celebrate",
+ "phonetic": "/ˈsɛlɪbreɪt/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Acknowledge (a significant or happy day or event) with a social gathering or enjoyable activity.",
+ "example": "They were celebrating their wedding anniversary."
+ },
+ {
+ "definition": "Perform (a religious ceremony or rite).",
+ "example": "The priest celebrated Mass."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The act of celebrating; a celebration.",
+ "example": "The celebration was a joyous occasion."
+ },
+ {
+ "definition": "A social gathering or enjoyable activity held to celebrate something.",
+ "example": "We had a small celebration for her birthday."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "celebrate",
+ "past": "celebrated",
+ "past_participle": "celebrated",
+ "present_participle": "celebrating",
+ "third_person": "celebrates"
+ },
+ "synonyms": ["commemorate", "observe", "honor", "mark", "rejoice"],
+ "antonyms": ["ignore", "mourn", "disregard", "overlook"],
+ "usage_examples": [
+ "We celebrated the victory with a parade.",
+ "It is important to celebrate small wins."
+ ]
+}

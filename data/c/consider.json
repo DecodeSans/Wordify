@@ -1,0 +1,40 @@
+{
+ "word": "consider",
+ "phonetic": "/kənˈsɪdər/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Think carefully about (something), typically before making a decision.",
+ "example": "I need some time to consider the offer."
+ },
+ {
+ "definition": "Regard someone or something as having a specified quality.",
+ "example": "He is considered a hero."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "Careful thought, typically over a period of time.",
+ "example": "The proposal is under consideration."
+ },
+ {
+ "definition": "A fact or a motive taken into account in deciding or judging something.",
+ "example": "Safety is the most important consideration."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "consider",
+ "past": "considered",
+ "past_participle": "considered",
+ "present_participle": "considering",
+ "third_person": "considers"
+ },
+ "synonyms": ["contemplate", "ponder", "regard", "deem", "examine"],
+ "antonyms": ["ignore", "disregard", "forget"],
+ "usage_examples": [
+ "Please consider my application.",
+ "We considered him to be a friend."
+ ]
+}

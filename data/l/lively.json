@@ -1,0 +1,42 @@
+{
+ "word": "lively",
+ "phonetic": "/ˈlaɪvli/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Full of life and energy; active and outgoing.",
+ "example": "She has a lively personality."
+ },
+ {
+ "definition": "(of a place or atmosphere) full of activity and excitement.",
+ "example": "The bar has a lively atmosphere."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The quality of being lively; liveliness.",
+ "example": "The liveliness of the children was exhausting."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To make lively; to liven (rare/dialectal).",
+ "example": "The music livelied up the party."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "lively",
+ "past": "livelied",
+ "past_participle": "livelied",
+ "present_participle": "livelying",
+ "third_person": "livelies"
+ },
+ "synonyms": ["energetic", "active", "animated", "spirited", "vivacious"],
+ "antonyms": ["dull", "inactive", "lethargic", "lifeless"],
+ "usage_examples": [
+ "She has a lively personality.",
+ "The debate was very lively."
+ ]
+}

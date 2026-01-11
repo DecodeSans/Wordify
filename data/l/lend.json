@@ -1,0 +1,40 @@
+{
+ "word": "lend",
+ "phonetic": "/lɛnd/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Grant to (someone) the use of (something) on the understanding that it shall be returned.",
+ "example": "I will lend you my car."
+ },
+ {
+ "definition": "Contribute or add (something, such as a quality) to.",
+ "example": "The presence of the mayor lent dignity to the occasion."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The action of lending.",
+ "example": "The lending of money."
+ },
+ {
+ "definition": "A loan (informal).",
+ "example": "Can I have a lend of your bike?"
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "lend",
+ "past": "lent",
+ "past_participle": "lent",
+ "present_participle": "lending",
+ "third_person": "lends"
+ },
+ "synonyms": ["loan", "advance", "impart", "add", "give"],
+ "antonyms": ["borrow", "keep"],
+ "usage_examples": [
+ "Can you lend me a hand?",
+ "Banks lend money to businesses."
+ ]
+}

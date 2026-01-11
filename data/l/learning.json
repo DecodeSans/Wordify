@@ -1,0 +1,40 @@
+{
+ "word": "learning",
+ "phonetic": "/ˈlɜːrnɪŋ/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The acquisition of knowledge or skills through experience, study, or by being taught.",
+ "example": "These children experience difficulties in learning."
+ },
+ {
+ "definition": "Knowledge acquired through study, experience, or being taught.",
+ "example": "He was a man of great learning."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Gain or acquire knowledge of or skill in (something) by study, experience, or being taught.",
+ "example": "They are learning French."
+ },
+ {
+ "definition": "Commit to memory.",
+ "example": "I've learned my lines for the play."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "learn",
+ "past": "learned",
+ "past_participle": "learned",
+ "present_participle": "learning",
+ "third_person": "learns"
+ },
+ "synonyms": ["knowledge", "education", "schooling", "study", "wisdom"],
+ "antonyms": ["ignorance"],
+ "usage_examples": [
+ "Distance learning is becoming more popular.",
+ "We are committed to lifelong learning."
+ ]
+}

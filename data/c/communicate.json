@@ -1,0 +1,40 @@
+{
+ "word": "communicate",
+ "phonetic": "/kəˈmjuːnɪkeɪt/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Share or exchange information, news, or ideas.",
+ "example": "They communicate with each other regularly."
+ },
+ {
+ "definition": "Convey or transmit (an emotion or feeling) in a non-verbal way.",
+ "example": "She communicated her anxiety through her body language."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The imparting or exchanging of information or news.",
+ "example": "Good communication is essential in a relationship."
+ },
+ {
+ "definition": "A letter or message containing information or news.",
+ "example": "She received a communication from the bank."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "communicate",
+ "past": "communicated",
+ "past_participle": "communicated",
+ "present_participle": "communicating",
+ "third_person": "communicates"
+ },
+ "synonyms": ["convey", "transmit", "interact", "correspond", "contact"],
+ "antonyms": ["withhold", "conceal", "suppress"],
+ "usage_examples": [
+ "It is vital to communicate clearly in a crisis.",
+ "Dolphins communicate using a variety of clicks and whistles."
+ ]
+}

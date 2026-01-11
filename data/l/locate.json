@@ -1,0 +1,40 @@
+{
+ "word": "locate",
+ "phonetic": "/loʊˈkeɪt/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Discover the exact place or position of.",
+ "example": "Engineers were working to locate the fault."
+ },
+ {
+ "definition": "Situate in a particular place.",
+ "example": "The company located its headquarters in New York."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "A particular place or position.",
+ "example": "The property is set in a stunning location."
+ },
+ {
+ "definition": "The action of locating someone or something.",
+ "example": "The location of the missing plane was difficult."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "locate",
+ "past": "located",
+ "past_participle": "located",
+ "present_participle": "locating",
+ "third_person": "locates"
+ },
+ "synonyms": ["find", "discover", "pinpoint", "situate", "place"],
+ "antonyms": ["lose", "misplace"],
+ "usage_examples": [
+ "We were unable to locate the source of the noise.",
+ "Our office is located in the city center."
+ ]
+}

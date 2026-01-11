@@ -1,0 +1,42 @@
+{
+ "word": "likely",
+ "phonetic": "/ˈlaɪkli/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Such as well might happen or be true; probable.",
+ "example": "It is likely that it will rain."
+ },
+ {
+ "definition": "Apparently suitable; promising.",
+ "example": "A likely candidate for the job."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The state or fact of something's being likely; probability.",
+ "example": "There is a strong likelihood of rain."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To make likely (rare/dialectal).",
+ "example": "The new evidence likelied his claim."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "likely",
+ "past": "likelied",
+ "past_participle": "likelied",
+ "present_participle": "likelying",
+ "third_person": "likelies"
+ },
+ "synonyms": ["probable", "plausible", "expected", "anticipated"],
+ "antonyms": ["unlikely", "improbable"],
+ "usage_examples": [
+ "It is highly likely that prices will rise.",
+ "They are likely to accept the offer."
+ ]
+}

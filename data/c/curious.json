@@ -1,0 +1,36 @@
+{
+ "word": "curious",
+ "phonetic": "/ˈkjʊəriəs/",
+ "part_of_speech": ["adjective", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Eager to know or learn something.",
+ "example": "I began to be curious about the whereabouts of the bride and groom."
+ },
+ {
+ "definition": "Strange; unusual.",
+ "example": "She found a curious old book in the attic."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To make curious (rare/dialectal).",
+ "example": "The strange sight curioused him."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "curious",
+ "past": "curioused",
+ "past_participle": "curioused",
+ "present_participle": "curiousing",
+ "third_person": "curiouses"
+ },
+ "synonyms": ["inquisitive", "interested", "peculiar", "odd", "strange"],
+ "antonyms": ["uninterested", "indifferent", "ordinary", "normal"],
+ "usage_examples": [
+ "He is curious about everything.",
+ "It was a curious coincidence."
+ ]
+}

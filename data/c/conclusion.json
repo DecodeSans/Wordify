@@ -1,0 +1,40 @@
+{
+ "word": "conclusion",
+ "phonetic": "/kənˈkluːʒən/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The end or finish of an event or process.",
+ "example": "The conclusion of the meeting was delayed."
+ },
+ {
+ "definition": "A judgment or decision reached by reasoning.",
+ "example": "They came to the conclusion that the plan was feasible."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Bring (something) to an end.",
+ "example": "They concluded the meeting."
+ },
+ {
+ "definition": "Arrive at a judgment or opinion by reasoning.",
+ "example": "The doctors concluded that he had a viral infection."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "conclude",
+ "past": "concluded",
+ "past_participle": "concluded",
+ "present_participle": "concluding",
+ "third_person": "concludes"
+ },
+ "synonyms": ["ending", "finale", "resolution", "judgment", "verdict"],
+ "antonyms": ["beginning", "start", "introduction", "preface"],
+ "usage_examples": [
+ "In conclusion, I would like to thank everyone.",
+ "The evidence led to an inescapable conclusion."
+ ]
+}

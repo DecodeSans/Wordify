@@ -1,0 +1,36 @@
+{
+ "word": "concentrate",
+ "phonetic": "/ˈkɒnsəntreɪt/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Focus all one's attention on a particular object or activity.",
+ "example": "She couldn't concentrate on the film."
+ },
+ {
+ "definition": "Gather (people or things) together in numbers or in a mass.",
+ "example": "Troops were concentrating at the border."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "A substance made by removing water or other diluting agent.",
+ "example": "Apple juice concentrate."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "concentrate",
+ "past": "concentrated",
+ "past_participle": "concentrated",
+ "present_participle": "concentrating",
+ "third_person": "concentrates"
+ },
+ "synonyms": ["focus", "center", "centralize", "condense", "intensify"],
+ "antonyms": ["distract", "disperse", "dilute", "scatter"],
+ "usage_examples": [
+ "I need to concentrate on my work.",
+ "The sauce uses tomato concentrate for flavor."
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "word": "limit",
+ "phonetic": "/ˈlɪmɪt/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A point or level beyond which something does not or may not extend or pass.",
+ "example": "There is a limit to the amount of money we can spend."
+ },
+ {
+ "definition": "A restriction on the size or amount of something permissible or possible.",
+ "example": "An age limit."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Set or serve as a limit to.",
+ "example": "Try to limit the amount of sugar you eat."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "limit",
+ "past": "limited",
+ "past_participle": "limited",
+ "present_participle": "limiting",
+ "third_person": "limits"
+ },
+ "synonyms": ["restriction", "boundary", "cap", "curb", "restraint"],
+ "antonyms": ["freedom", "extension", "excess", "expand"],
+ "usage_examples": [
+ "We must limit our spending.",
+ "He reached the limit of his patience."
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "word": "construct",
+ "phonetic": "/kənˈstrʌkt/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Build or erect (something, typically a building, road, or machine).",
+ "example": "The company was hired to construct a new bridge."
+ },
+ {
+ "definition": "Form (an idea or theory) by bringing together various conceptual elements.",
+ "example": "He constructed a theory about the origin of the universe."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "An idea or theory containing various conceptual elements.",
+ "example": "Gender is often described as a social construct."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "construct",
+ "past": "constructed",
+ "past_participle": "constructed",
+ "present_participle": "constructing",
+ "third_person": "constructs"
+ },
+ "synonyms": ["build", "assemble", "create", "fabricate", "formulate"],
+ "antonyms": ["demolish", "destroy", "ruin", "dismantle"],
+ "usage_examples": [
+ "They constructed a shelter out of branches.",
+ "The building was constructed in 1930."
+ ]
+}

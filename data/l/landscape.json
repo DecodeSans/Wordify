@@ -1,0 +1,36 @@
+{
+ "word": "landscape",
+ "phonetic": "/ˈlændskeɪp/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "All the visible features of an area of countryside or land.",
+ "example": "The landscape changed as we drove north."
+ },
+ {
+ "definition": "The orientation of a page that is wider than it is high.",
+ "example": "Print the document in landscape."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Improve the aesthetic appearance of (a piece of land) by changing its contours, planting trees and shrubs, etc.",
+ "example": "The site has been tastefully landscaped."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "landscape",
+ "past": "landscaped",
+ "past_participle": "landscaped",
+ "present_participle": "landscaping",
+ "third_person": "landscapes"
+ },
+ "synonyms": ["scenery", "terrain", "view", "environment", "countryside"],
+ "antonyms": [],
+ "usage_examples": [
+ "She painted a beautiful landscape.",
+ "We plan to landscape the backyard next spring."
+ ]
+}

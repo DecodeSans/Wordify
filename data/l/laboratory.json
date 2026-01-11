@@ -1,0 +1,32 @@
+{
+ "word": "laboratory",
+ "phonetic": "/ˈlæbrətɔːri/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A room or building equipped for scientific experiments, research, or teaching, or for the manufacture of drugs or chemicals.",
+ "example": "The samples were sent to the laboratory for analysis."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To work or conduct experiments in a laboratory (informal).",
+ "example": "The students labbed through the night."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "lab",
+ "past": "labbed",
+ "past_participle": "labbed",
+ "present_participle": "labbing",
+ "third_person": "labs"
+ },
+ "synonyms": ["lab", "research center", "workshop", "testing ground"],
+ "antonyms": [],
+ "usage_examples": [
+ "He works in a research laboratory.",
+ "The school has a well-equipped science laboratory."
+ ]
+}

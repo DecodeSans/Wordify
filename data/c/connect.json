@@ -1,0 +1,40 @@
+{
+ "word": "connect",
+ "phonetic": "/kəˈnɛkt/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Bring together or into contact so that a real or notional link is established.",
+ "example": "The two towns are connected by a bridge."
+ },
+ {
+ "definition": "Link to a power or water supply.",
+ "example": "Connect the printer to the computer."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "A relationship in which a person, thing, or idea is linked or associated with something else.",
+ "example": "There is a connection between the two events."
+ },
+ {
+ "definition": "The action of linking one thing with another.",
+ "example": "The connection of the cables was difficult."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "connect",
+ "past": "connected",
+ "past_participle": "connected",
+ "present_participle": "connecting",
+ "third_person": "connects"
+ },
+ "synonyms": ["link", "join", "attach", "associate", "relate"],
+ "antonyms": ["disconnect", "separate", "detach", "disjoin"],
+ "usage_examples": [
+ "I need to connect my laptop to the Wi-Fi.",
+ "The story connects two different historical events."
+ ]
+}

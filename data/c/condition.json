@@ -1,0 +1,40 @@
+{
+ "word": "condition",
+ "phonetic": "/kənˈdɪʃən/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The state of something with regard to its appearance, quality, or working order.",
+ "example": "The car is in good condition."
+ },
+ {
+ "definition": "A situation that must exist before something else is possible or permitted.",
+ "example": "A condition of employment is that you must be willing to travel."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Bring (something) into the desired state for use.",
+ "example": "This product conditions your hair."
+ },
+ {
+ "definition": "Train or accustom (someone or something) to behave in a certain way.",
+ "example": "The rats were conditioned to press the lever."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "condition",
+ "past": "conditioned",
+ "past_participle": "conditioned",
+ "present_participle": "conditioning",
+ "third_person": "conditions"
+ },
+ "synonyms": ["state", "situation", "circumstance", "requirement", "train"],
+ "antonyms": ["neglect", "ignore"],
+ "usage_examples": [
+ "The house was in poor condition.",
+ "He was conditioned to accept the rules."
+ ]
+}

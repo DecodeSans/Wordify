@@ -1,0 +1,42 @@
+{
+ "word": "legal",
+ "phonetic": "/ˈliːɡəl/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Of, based on, or concerned with the law.",
+ "example": "The American legal system."
+ },
+ {
+ "definition": "Permitted by law.",
+ "example": "Is it legal to park here?"
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The quality or state of being in accordance with the law; legality.",
+ "example": "They challenged the legality of the contract."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Make (something that was previously illegal) permissible by law.",
+ "example": "The government plans to legalize the drug."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "legalize",
+ "past": "legalized",
+ "past_participle": "legalized",
+ "present_participle": "legalizing",
+ "third_person": "legalizes"
+ },
+ "synonyms": ["lawful", "legitimate", "valid", "licit", "judicial"],
+ "antonyms": ["illegal", "criminal", "unlawful"],
+ "usage_examples": [
+ "He sought legal advice.",
+ "They are involved in a legal battle."
+ ]
+}

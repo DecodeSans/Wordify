@@ -1,0 +1,46 @@
+{
+ "word": "common",
+ "phonetic": "/ˈkɒmən/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Occurring, found, or done often; prevalent.",
+ "example": "Salt and pepper are the two most common seasonings."
+ },
+ {
+ "definition": "Shared by, coming from, or done by two or more people, groups, or things.",
+ "example": "The two countries have a common border."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "A piece of open land for public use, especially in a village or town.",
+ "example": "The children played football on the common."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To share or participate in something (archaic).",
+ "example": "They commoned together at the same table."
+ },
+ {
+ "definition": "To have the right of pasture on common land.",
+ "example": "The villagers commoned their cattle."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "common",
+ "past": "commoned",
+ "past_participle": "commoned",
+ "present_participle": "commoning",
+ "third_person": "commons"
+ },
+ "synonyms": ["usual", "frequent", "shared", "collective", "ordinary"],
+ "antonyms": ["rare", "uncommon", "unique", "individual"],
+ "usage_examples": [
+ "It is a common mistake to make.",
+ "We are working towards a common goal."
+ ]
+}

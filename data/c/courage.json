@@ -1,0 +1,40 @@
+{
+ "word": "courage",
+ "phonetic": "/ˈkʌrɪdʒ/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The ability to do something that frightens one.",
+ "example": "She called on all her courage to face the ordeal."
+ },
+ {
+ "definition": "Strength in the face of pain or grief.",
+ "example": "He fought his illness with great courage."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Give support, confidence, or hope to (someone).",
+ "example": "We were encouraged by the success of this venture."
+ },
+ {
+ "definition": "Persuade (someone) to do or continue to do something by giving support and advice.",
+ "example": "The new laws encourage recycling."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "encourage",
+ "past": "encouraged",
+ "past_participle": "encouraged",
+ "present_participle": "encouraging",
+ "third_person": "encourages"
+ },
+ "synonyms": ["bravery", "valor", "fearlessness", "nerve", "daring", "inspire", "motivate", "hearten"],
+ "antonyms": ["cowardice", "timidity", "fear", "discourage", "dissuade"],
+ "usage_examples": [
+ "It takes courage to admit you were wrong.",
+ "The soldiers fought with great courage."
+ ]
+}

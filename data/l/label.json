@@ -1,0 +1,40 @@
+{
+ "word": "label",
+ "phonetic": "/ˈleɪbəl/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A small piece of paper, fabric, plastic, or similar material attached to an object and giving information about it.",
+ "example": "The label on the bottle lists the ingredients."
+ },
+ {
+ "definition": "A classifying phrase or name applied to a person or thing.",
+ "example": "The band hates the label 'heavy metal'."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Attach a label to.",
+ "example": "I labeled the boxes 'fragile'."
+ },
+ {
+ "definition": "Assign to a category.",
+ "example": "He was labeled as a troublemaker."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "label",
+ "past": "labeled",
+ "past_participle": "labeled",
+ "present_participle": "labeling",
+ "third_person": "labels"
+ },
+ "synonyms": ["tag", "sticker", "mark", "classify", "categorize"],
+ "antonyms": [],
+ "usage_examples": [
+ "Check the washing instructions on the label.",
+ "It is unfair to label children as slow learners."
+ ]
+}

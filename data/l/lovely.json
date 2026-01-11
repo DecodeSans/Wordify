@@ -1,0 +1,42 @@
+{
+ "word": "lovely",
+ "phonetic": "/ˈlʌvli/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Exquisitely beautiful.",
+ "example": "She looked lovely in her new dress."
+ },
+ {
+ "definition": "Very pleasant or enjoyable.",
+ "example": "We had a lovely time at the party."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The quality of being lovely; loveliness.",
+ "example": "The loveliness of the landscape."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To make lovely (rare/dialectal).",
+ "example": "She lovelied up the house for the guests."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "lovely",
+ "past": "lovelied",
+ "past_participle": "lovelied",
+ "present_participle": "lovelying",
+ "third_person": "lovelies"
+ },
+ "synonyms": ["beautiful", "pretty", "attractive", "delightful", "charming"],
+ "antonyms": ["ugly", "hideous", "horrible", "unpleasant"],
+ "usage_examples": [
+ "What a lovely surprise!",
+ "The weather was lovely."
+ ]
+}

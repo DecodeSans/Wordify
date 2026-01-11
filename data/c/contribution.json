@@ -1,0 +1,40 @@
+{
+ "word": "contribution",
+ "phonetic": "/ˌkɒntrɪˈbjuːʃən/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A gift or payment to a common fund or collection.",
+ "example": "He made a generous contribution to the charity."
+ },
+ {
+ "definition": "The part played by a person or thing in bringing about a result or helping something to advance.",
+ "example": "She was awarded for her contribution to science."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Give (something, especially money) in order to help achieve or provide something.",
+ "example": "He contributed to the fund."
+ },
+ {
+ "definition": "Help to cause or bring about.",
+ "example": "The stress contributed to his illness."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "contribute",
+ "past": "contributed",
+ "past_participle": "contributed",
+ "present_participle": "contributing",
+ "third_person": "contributes"
+ },
+ "synonyms": ["donation", "gift", "offering", "input", "role"],
+ "antonyms": ["subtraction", "withdrawal", "loss"],
+ "usage_examples": [
+ "All contributions will be gratefully received.",
+ "His contribution to the project was invaluable."
+ ]
+}

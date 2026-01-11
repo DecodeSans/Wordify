@@ -1,0 +1,40 @@
+{
+ "word": "continue",
+ "phonetic": "/kənˈtɪnjuː/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Persist in an activity or process.",
+ "example": "He continued to work despite the noise."
+ },
+ {
+ "definition": "Recommence or resume after interruption.",
+ "example": "The meeting continued after a short break."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The action of carrying something on over a period of time or the process of being carried on.",
+ "example": "The continuation of the discussion was necessary."
+ },
+ {
+ "definition": "A part that is attached to and is an extension of something else.",
+ "example": "The book is a continuation of the series."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "continue",
+ "past": "continued",
+ "past_participle": "continued",
+ "present_participle": "continuing",
+ "third_person": "continues"
+ },
+ "synonyms": ["persist", "proceed", "sustain", "resume", "carry on"],
+ "antonyms": ["stop", "cease", "discontinue", "quit"],
+ "usage_examples": [
+ "We will continue the discussion tomorrow.",
+ "The rain continued for three days."
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "word": "lecture",
+ "phonetic": "/ˈlɛktʃər/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "An educational talk to an audience, especially to students in a university or college.",
+ "example": "In this lecture, I will cover the basics of quantum mechanics."
+ },
+ {
+ "definition": "A long serious speech, especially one given as a reprimand.",
+ "example": "My father gave me a lecture on the importance of punctuality."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Deliver an educational lecture.",
+ "example": "He lectures on history at the university."
+ },
+ {
+ "definition": "Talk seriously or reprovingly to (someone).",
+ "example": "She lectured him about his bad manners."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "lecture",
+ "past": "lectured",
+ "past_participle": "lectured",
+ "present_participle": "lecturing",
+ "third_person": "lectures"
+ },
+ "synonyms": ["speech", "talk", "address", "sermon", "scold", "berate"],
+ "antonyms": ["praise", "compliment"],
+ "usage_examples": [
+ "The professor gave a fascinating lecture.",
+ "Stop lecturing me like I'm a child."
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "word": "library",
+ "phonetic": "/ˈlaɪbrɛri/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A building or room containing collections of books, periodicals, and sometimes films and recorded music for use or borrowing by the public or the members of an institution.",
+ "example": "They went to the library to study."
+ },
+ {
+ "definition": "A collection of books and periodicals held in a library.",
+ "example": "He has a vast library of history books."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To furnish with a library; to place in a library (rare).",
+ "example": "The house was well libraried."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "library",
+ "past": "libraried",
+ "past_participle": "libraried",
+ "present_participle": "librarying",
+ "third_person": "libraries"
+ },
+ "synonyms": ["archive", "collection", "repository", "athenaeum"],
+ "antonyms": ["dispersal", "scattering"],
+ "usage_examples": [
+ "I spent the afternoon at the public library.",
+ "The software comes with a library of pre-built functions."
+ ]
+}

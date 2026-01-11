@@ -1,0 +1,46 @@
+{
+ "word": "creative",
+ "phonetic": "/kriˈeɪtɪv/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Relating to or involving the imagination or original ideas, especially in the production of an artistic work.",
+ "example": "Creative writing."
+ },
+ {
+ "definition": "Having good imagination or original ideas.",
+ "example": "He is a creative thinker."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The use of the imagination or original ideas, especially in the production of an artistic work; creativity.",
+ "example": "She was praised for her creativity."
+ },
+ {
+ "definition": "A person whose job involves creative work.",
+ "example": "The ad agency hired two new creatives."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Bring (something) into existence.",
+ "example": "The software allows you to create music."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "create",
+ "past": "created",
+ "past_participle": "created",
+ "present_participle": "creating",
+ "third_person": "creates"
+ },
+ "synonyms": ["inventive", "imaginative", "innovative", "artistic", "original"],
+ "antonyms": ["unimaginative", "uncreative", "derivative"],
+ "usage_examples": [
+ "She has a very creative mind.",
+ "The company is looking for creative ways to save money."
+ ]
+}

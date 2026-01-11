@@ -1,0 +1,36 @@
+{
+ "word": "literature",
+ "phonetic": "/ˈlɪtərətʃər/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "Written works, especially those considered of superior or lasting artistic merit.",
+ "example": "A great work of literature."
+ },
+ {
+ "definition": "Books and writings published on a particular subject.",
+ "example": "The literature on the subject is extensive."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To write about or mention in literature (rare).",
+ "example": "The region has been literatured by many poets."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "literature",
+ "past": "literatured",
+ "past_participle": "literatured",
+ "present_participle": "literaturing",
+ "third_person": "literatures"
+ },
+ "synonyms": ["writings", "books", "publications", "letters", "compositions"],
+ "antonyms": [],
+ "usage_examples": [
+ "She is studying English literature.",
+ "I have read all the available literature on the product."
+ ]
+}

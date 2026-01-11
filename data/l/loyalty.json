@@ -1,0 +1,36 @@
+{
+ "word": "loyalty",
+ "phonetic": "/ˈlɔɪəlti/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The quality of being loyal.",
+ "example": "Her loyalty to the cause is impressive."
+ },
+ {
+ "definition": "A strong feeling of support or allegiance.",
+ "example": "Rows of customers showed their loyalty to the shop."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To make loyal; to invest with loyalty (rare).",
+ "example": "The leader sought to loyalize the new recruits."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "loyalize",
+ "past": "loyalized",
+ "past_participle": "loyalized",
+ "present_participle": "loyalizing",
+ "third_person": "loyalizes"
+ },
+ "synonyms": ["allegiance", "faithfulness", "fidelity", "devotion", "dedication"],
+ "antonyms": ["disloyalty", "treachery", "betrayal"],
+ "usage_examples": [
+ "He showed great loyalty to his friends.",
+ "Brand loyalty is important for businesses."
+ ]
+}

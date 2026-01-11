@@ -1,0 +1,36 @@
+{
+ "word": "listen",
+ "phonetic": "/ˈlɪsən/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Give one's attention to a sound.",
+ "example": "Sit and listen to the music."
+ },
+ {
+ "definition": "Take notice of and act on what someone says; respond to advice or a request.",
+ "example": "I told him to stop, but he wouldn't listen."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "An act of listening to something.",
+ "example": "Have a listen to this track."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "listen",
+ "past": "listened",
+ "past_participle": "listened",
+ "present_participle": "listening",
+ "third_person": "listens"
+ },
+ "synonyms": ["hear", "pay attention", "hearken", "attend", "heed"],
+ "antonyms": ["ignore", "disregard", "tune out"],
+ "usage_examples": [
+ "Please listen carefully to the instructions.",
+ "She loves to listen to podcasts."
+ ]
+}

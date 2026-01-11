@@ -1,0 +1,23 @@
+{
+ "word": "confidence",
+ "phonetic": "/ˈkɒnfɪdəns/",
+ "part_of_speech": ["noun"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The feeling or belief that one can rely on someone or something; firm trust.",
+ "example": "We have every confidence in their ability to succeed."
+ },
+ {
+ "definition": "A feeling of self-assurance arising from one's appreciation of one's own abilities or qualities.",
+ "example": "She's a good student, but she lacks confidence."
+ }
+ ]
+ },
+ "synonyms": ["trust", "belief", "faith", "assurance", "certainty"],
+ "antonyms": ["doubt", "uncertainty", "mistrust", "skepticism"],
+ "usage_examples": [
+ "The team is playing with confidence.",
+ "I have confidence that everything will work out."
+ ]
+}

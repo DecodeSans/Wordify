@@ -1,0 +1,42 @@
+{
+ "word": "cooperative",
+ "phonetic": "/koʊˈɒpərətɪv/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Involving mutual assistance in working towards a common goal.",
+ "example": "Every member of the team has to be cooperative."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "A farm, business, or other organization which is owned and run jointly by its members, who share the profits or benefits.",
+ "example": "He is a member of the housing cooperative."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Act jointly; work toward the same end.",
+ "example": "The leaders promised to cooperate in ending the violence."
+ },
+ {
+ "definition": "Assist someone or comply with their requests.",
+ "example": "The witness refused to cooperate."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "cooperate",
+ "past": "cooperated",
+ "past_participle": "cooperated",
+ "present_participle": "cooperating",
+ "third_person": "cooperates"
+ },
+ "synonyms": ["collaborative", "supportive", "helpful", "collective", "joint"],
+ "antonyms": ["uncooperative", "individual", "competitive", "obstructive"],
+ "usage_examples": [
+ "The students were very cooperative in class.",
+ "They formed a cooperative to sell their produce."
+ ]
+}

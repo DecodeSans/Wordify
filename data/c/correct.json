@@ -1,0 +1,50 @@
+{
+ "word": "correct",
+ "phonetic": "/kəˈrɛkt/",
+ "part_of_speech": ["adjective", "verb", "noun"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Free from error; in accordance with fact or truth.",
+ "example": "Make sure you give the correct answer."
+ },
+ {
+ "definition": "Socially acceptable; proper.",
+ "example": "It was not considered correct behavior."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Put right (an error or fault).",
+ "example": "Teachers correct our homework."
+ },
+ {
+ "definition": "Tell someone that they are mistaken.",
+ "example": "He corrected me on a point of law."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The action or process of correcting something.",
+ "example": "The correction of the manuscript took weeks."
+ },
+ {
+ "definition": "A change that rectifies an error or inaccuracy.",
+ "example": "He made a correction to his statement."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "correct",
+ "past": "corrected",
+ "past_participle": "corrected",
+ "present_participle": "correcting",
+ "third_person": "corrects"
+ },
+ "synonyms": ["right", "accurate", "true", "rectify", "amend"],
+ "antonyms": ["wrong", "incorrect", "false", "spoil"],
+ "usage_examples": [
+ "The correct answer is B.",
+ "I need to correct the spelling mistakes."
+ ]
+}

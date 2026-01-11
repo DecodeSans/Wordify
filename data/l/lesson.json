@@ -1,0 +1,36 @@
+{
+ "word": "lesson",
+ "phonetic": "/ˈlɛsən/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A period of learning or teaching.",
+ "example": "She has a piano lesson every Tuesday."
+ },
+ {
+ "definition": "Something learned by study or experience.",
+ "example": "The accident taught him a valuable lesson."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To teach or instruct (someone).",
+ "example": "He lessoned the pupils on their behavior."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "lesson",
+ "past": "lessoned",
+ "past_participle": "lessoned",
+ "present_participle": "lessoning",
+ "third_person": "lessons"
+ },
+ "synonyms": ["class", "session", "instruction", "moral", "example"],
+ "antonyms": [],
+ "usage_examples": [
+ "The history lesson was very interesting.",
+ "I learned my lesson the hard way."
+ ]
+}

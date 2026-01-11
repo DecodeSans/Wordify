@@ -1,0 +1,36 @@
+{
+ "word": "luxury",
+ "phonetic": "/ˈlʌkʃəri/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The state of great comfort and extravagant living.",
+ "example": "He lived a life of luxury."
+ },
+ {
+ "definition": "An inessential, desirable item which is expensive or difficult to obtain.",
+ "example": "Luxuries like chocolate and wine."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Enjoy oneself in a luxurious way; take self-indulgent delight.",
+ "example": "She luxuriated in a hot bath."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "luxuriate",
+ "past": "luxuriated",
+ "past_participle": "luxuriated",
+ "present_participle": "luxuriating",
+ "third_person": "luxuriates"
+ },
+ "synonyms": ["opulence", "splendor", "magnificence", "extravagance", "indulgence"],
+ "antonyms": ["poverty", "austerity", "necessity"],
+ "usage_examples": [
+ "They stayed in a luxury hotel.",
+ "We can't afford such luxuries."
+ ]
+}

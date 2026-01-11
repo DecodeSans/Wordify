@@ -1,0 +1,42 @@
+{
+ "word": "logical",
+ "phonetic": "/ˈlɒdʒɪkəl/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Of or according to the rules of logic or formal argument.",
+ "example": "A logical argument."
+ },
+ {
+ "definition": "Characterized by or capable of clear, sound reasoning.",
+ "example": "Her logical mind."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The quality of being logical; logicality.",
+ "example": "The logicality of his argument was undeniable."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To make logical; to rationalize.",
+ "example": "He tried to logicalize his erratic behavior."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "logicalize",
+ "past": "logicalized",
+ "past_participle": "logicalized",
+ "present_participle": "logicalizing",
+ "third_person": "logicalizes"
+ },
+ "synonyms": ["rational", "reasonable", "sensible", "valid", "coherent"],
+ "antonyms": ["illogical", "irrational", "unreasonable"],
+ "usage_examples": [
+ "It was the logical thing to do.",
+ "He gave a logical explanation."
+ ]
+}

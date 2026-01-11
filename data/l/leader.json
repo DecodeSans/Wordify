@@ -1,0 +1,40 @@
+{
+ "word": "leader",
+ "phonetic": "/ˈliːdər/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The person who leads or commands a group, organization, or country.",
+ "example": "He is the leader of the opposition party."
+ },
+ {
+ "definition": "A person followed by others.",
+ "example": "She is a leader in her field."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Show the way to (an individual or a group) by going with or ahead.",
+ "example": "The guide led us through the forest."
+ },
+ {
+ "definition": "Be in charge or command of.",
+ "example": "He led the country during the war."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "lead",
+ "past": "led",
+ "past_participle": "led",
+ "present_participle": "leading",
+ "third_person": "leads"
+ },
+ "synonyms": ["chief", "head", "commander", "ruler", "captain"],
+ "antonyms": ["follower", "subordinate", "supporter"],
+ "usage_examples": [
+ "A good leader inspires confidence in others.",
+ "She was elected as the team leader."
+ ]
+}
