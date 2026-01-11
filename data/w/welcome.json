@@ -1,0 +1,46 @@
+{
+ "word": "welcome",
+ "phonetic": "/ˈwɛlkəm/",
+ "part_of_speech": ["noun", "verb", "adjective"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "An instance or manner of greeting someone.",
+ "example": "You will receive a warm welcome."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Greet (someone) arriving in a polite or friendly way.",
+ "example": "Hotels should welcome guests."
+ },
+ {
+ "definition": "Be glad to entertain (someone) or receive (something).",
+ "example": "We welcome your feedback."
+ }
+ ],
+ "adjective": [
+ {
+ "definition": "(of a guest or new arrival) gladly received.",
+ "example": "Make yourself welcome."
+ },
+ {
+ "definition": "Very pleasing because much needed or desired.",
+ "example": "A welcome break."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "welcome",
+ "past": "welcomed",
+ "past_participle": "welcomed",
+ "present_participle": "welcoming",
+ "third_person": "welcomes"
+ },
+ "synonyms": ["greeting", "reception", "hospitality", "embrace", "accept"],
+ "antonyms": ["farewell", "goodbye", "reject", "unwelcome"],
+ "usage_examples": [
+ "Welcome to our home.",
+ "She welcomed the suggestion."
+ ]
+}

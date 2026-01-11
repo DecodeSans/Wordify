@@ -1,0 +1,40 @@
+{
+ "word": "worship",
+ "phonetic": "/ˈwɜːrʃɪp/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The feeling or expression of reverence and adoration for a deity.",
+ "example": "The worship of God."
+ },
+ {
+ "definition": "Adoration or honor paid to a thing or person.",
+ "example": "He had a look of worship on his face."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Show reverence and adoration for (a deity); honor with religious rites.",
+ "example": "They worship in the traditional manner."
+ },
+ {
+ "definition": "Treat (someone or something) with the reverence and adoration appropriate to a deity.",
+ "example": "She worships her older sister."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "worship",
+ "past": "worshiped",
+ "past_participle": "worshiped",
+ "present_participle": "worshiping",
+ "third_person": "worships"
+ },
+ "synonyms": ["reverence", "adoration", "veneration", "glorify", "honor"],
+ "antonyms": ["despise", "scorn", "disrespect"],
+ "usage_examples": [
+ "They worship at the local church.",
+ "He worships the ground she walks on."
+ ]
+}

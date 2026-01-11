@@ -1,0 +1,46 @@
+{
+ "word": "warning",
+ "phonetic": "/ˈwɔːrnɪŋ/",
+ "part_of_speech": ["noun", "adjective", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A statement or event that indicates a possible or impending danger, problem, or other unpleasant situation.",
+ "example": "A warning about heavy rain."
+ },
+ {
+ "definition": "Advice to beware of something.",
+ "example": "He ignored my warning."
+ }
+ ],
+ "adjective": [
+ {
+ "definition": "Serving as a warning.",
+ "example": "A warning shot."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Inform someone in advance of an impending or possible danger, problem, or other unpleasant situation.",
+ "example": "His father warned him of the danger."
+ },
+ {
+ "definition": "Give (someone) advice to beware of something.",
+ "example": "I warned you not to go there."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "warn",
+ "past": "warned",
+ "past_participle": "warned",
+ "present_participle": "warning",
+ "third_person": "warns"
+ },
+ "synonyms": ["caution", "alert", "notice", "admonition", "alarm"],
+ "antonyms": ["reassurance", "encouragement"],
+ "usage_examples": [
+ "The government issued a health warning.",
+ "She gave a warning glance."
+ ]
+}

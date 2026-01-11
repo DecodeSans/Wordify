@@ -1,0 +1,32 @@
+{
+ "word": "wildlife",
+ "phonetic": "/ˈwaɪldlaɪf/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "Wild animals collectively; the native fauna (and sometimes flora) of a region.",
+ "example": "The area is rich in wildlife."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To populate or stock with wildlife (rare/non-standard).",
+ "example": "The reserve was wildlifed with native species."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "wildlife",
+ "past": "wildlifed",
+ "past_participle": "wildlifed",
+ "present_participle": "wildlifing",
+ "third_person": "wildlifes"
+ },
+ "synonyms": ["fauna", "animals", "creatures", "nature"],
+ "antonyms": ["domestic animals", "pets"],
+ "usage_examples": [
+ "Conservation of wildlife is important.",
+ "We saw a lot of wildlife on our trip."
+ ]
+}

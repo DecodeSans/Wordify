@@ -1,0 +1,42 @@
+{
+ "word": "worthy",
+ "phonetic": "/ˈwɜːrði/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Deserving effort, attention, or respect.",
+ "example": "A worthy cause."
+ },
+ {
+ "definition": "Having or showing the qualities or abilities that merit recognition in a specified way.",
+ "example": "He is a worthy opponent."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "A person notable or important in a particular sphere.",
+ "example": "Local worthies were invited to the event."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To make worthy; to exalt (obsolete/rare).",
+ "example": "He was worthied by his deeds."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "worthy",
+ "past": "worthied",
+ "past_participle": "worthied",
+ "present_participle": "worthying",
+ "third_person": "worthies"
+ },
+ "synonyms": ["deserving", "meritorious", "valuable", "honorable", "reputable"],
+ "antonyms": ["unworthy", "undeserving", "worthless"],
+ "usage_examples": [
+ "She is a worthy successor.",
+ "The charity supports many worthy causes."
+ ]
+}

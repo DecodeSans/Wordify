@@ -1,0 +1,36 @@
+{
+ "word": "wealth",
+ "phonetic": "/wɛlθ/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "An abundance of valuable possessions or money.",
+ "example": "He used his wealth to bribe officials."
+ },
+ {
+ "definition": "A plentiful supply of a particular desirable thing.",
+ "example": "The tables and maps contain a wealth of information."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To endow with wealth; to enrich (obsolete).",
+ "example": "The venture wealthed him beyond measure."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "wealth",
+ "past": "wealthed",
+ "past_participle": "wealthed",
+ "present_participle": "wealthing",
+ "third_person": "wealths"
+ },
+ "synonyms": ["affluence", "prosperity", "riches", "fortune", "opulence"],
+ "antonyms": ["poverty", "lack", "scarcity"],
+ "usage_examples": [
+ "The country's mineral wealth.",
+ "Health is better than wealth."
+ ]
+}

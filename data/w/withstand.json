@@ -1,0 +1,36 @@
+{
+ "word": "withstand",
+ "phonetic": "/wɪðˈstænd/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Remain undamaged or unaffected by; resist.",
+ "example": "The structure had been designed to withstand high winds."
+ },
+ {
+ "definition": "Offer strong resistance or opposition to (someone or something).",
+ "example": "Constantinople withstood the siege."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The act of resisting or enduring.",
+ "example": "The withstanding of the pressure was remarkable."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "withstand",
+ "past": "withstood",
+ "past_participle": "withstood",
+ "present_participle": "withstanding",
+ "third_person": "withstands"
+ },
+ "synonyms": ["resist", "endure", "survive", "tolerate", "bear"],
+ "antonyms": ["succumb", "surrender", "yield", "collapse"],
+ "usage_examples": [
+ "The bridge is built to withstand earthquakes.",
+ "She withstood the pressure to resign."
+ ]
+}

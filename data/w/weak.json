@@ -1,0 +1,46 @@
+{
+ "word": "weak",
+ "phonetic": "/wiːk/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Lacking the power to perform physically demanding tasks; lacking physical strength and energy.",
+ "example": "She was recovering from the flu and felt very weak."
+ },
+ {
+ "definition": "Liable to break or give way under pressure; easily damaged.",
+ "example": "The bridge is too weak to carry heavy traffic."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The state or condition of lacking strength; weakness.",
+ "example": "The weakness of the dollar."
+ },
+ {
+ "definition": "A person or thing that one is unable to resist or likes excessively.",
+ "example": "He has a weakness for chocolate."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Make or become weak.",
+ "example": "The illness weakened him."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "weaken",
+ "past": "weakened",
+ "past_participle": "weakened",
+ "present_participle": "weakening",
+ "third_person": "weakens"
+ },
+ "synonyms": ["frail", "feeble", "fragile", "delicate", "powerless"],
+ "antonyms": ["strong", "powerful", "sturdy", "robust"],
+ "usage_examples": [
+ "He has a weak pulse.",
+ "That was a weak excuse."
+ ]
+}

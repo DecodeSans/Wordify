@@ -1,0 +1,32 @@
+{
+ "word": "workplace",
+ "phonetic": "/ˈwɜːrkpleɪs/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A place where people work, such as an office or factory.",
+ "example": "Safety in the workplace is essential."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Be engaged in physical or mental activity in order to achieve a purpose or result.",
+ "example": "He worked long hours."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "work",
+ "past": "worked",
+ "past_participle": "worked",
+ "present_participle": "working",
+ "third_person": "works"
+ },
+ "synonyms": ["office", "job site", "place of work", "workstation"],
+ "antonyms": ["home"],
+ "usage_examples": [
+ "She enjoys the atmosphere of her workplace.",
+ "Workplace discrimination is illegal."
+ ]
+}

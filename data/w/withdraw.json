@@ -1,0 +1,44 @@
+{
+ "word": "withdraw",
+ "phonetic": "/wɪðˈdrɔː/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Remove or take away (something) from a particular place or position.",
+ "example": "She withdrew her hand from his."
+ },
+ {
+ "definition": "Leave or cause to leave a place or situation.",
+ "example": "The troops withdrew from the city."
+ },
+ {
+ "definition": "Take back or discontinue (a statement, offer, or opinion).",
+ "example": "He withdrew his remarks."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The action of withdrawing or removing something.",
+ "example": "The withdrawal of troops."
+ },
+ {
+ "definition": "An act of taking money out of an account.",
+ "example": "She made a withdrawal from her savings."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "withdraw",
+ "past": "withdrew",
+ "past_participle": "withdrawn",
+ "present_participle": "withdrawing",
+ "third_person": "withdraws"
+ },
+ "synonyms": ["remove", "extract", "retreat", "retract", "revoke", "leave"],
+ "antonyms": ["deposit", "enter", "advance", "remain", "propose"],
+ "usage_examples": [
+ "I need to withdraw some money from the ATM.",
+ "The candidate decided to withdraw from the race."
+ ]
+}

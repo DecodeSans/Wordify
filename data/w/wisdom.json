@@ -1,0 +1,40 @@
+{
+ "word": "wisdom",
+ "phonetic": "/ˈwɪzdəm/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The quality of having experience, knowledge, and good judgment; the quality of being wise.",
+ "example": "Listen to his words of wisdom."
+ },
+ {
+ "definition": "The body of knowledge and principles that develops within a specified society or period.",
+ "example": "The wisdom of the ancients."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To become wise or aware of something (often used with 'up').",
+ "example": "He finally wised up to the truth."
+ },
+ {
+ "definition": "To inform or instruct (someone) (slang).",
+ "example": "Can you wise me up on the rules?"
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "wise",
+ "past": "wised",
+ "past_participle": "wised",
+ "present_participle": "wising",
+ "third_person": "wises"
+ },
+ "synonyms": ["sagacity", "intelligence", "sense", "prudence", "insight"],
+ "antonyms": ["folly", "stupidity", "ignorance"],
+ "usage_examples": [
+ "She is known for her wisdom.",
+ "He shared his wisdom with the students."
+ ]
+}

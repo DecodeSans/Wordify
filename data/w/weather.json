@@ -1,0 +1,36 @@
+{
+ "word": "weather",
+ "phonetic": "/ˈwɛðər/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The state of the atmosphere at a place and time as regards heat, dryness, sunshine, wind, rain, etc.",
+ "example": "If the weather is good, we can go for a walk."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Wear away or change the appearance or texture of (something) by long exposure to the air.",
+ "example": "His face was weathered by the sun."
+ },
+ {
+ "definition": "Come safely through (a storm or difficult situation).",
+ "example": "She weathered the scandal."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "weather",
+ "past": "weathered",
+ "past_participle": "weathered",
+ "present_participle": "weathering",
+ "third_person": "weathers"
+ },
+ "synonyms": ["climate", "conditions", "survive", "endure", "withstand"],
+ "antonyms": ["succumb", "collapse"],
+ "usage_examples": [
+ "The weather forecast is for rain.",
+ "The house has weathered the storm."
+ ]
+}

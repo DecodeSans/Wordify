@@ -1,0 +1,32 @@
+{
+ "word": "willpower",
+ "phonetic": "/ˈwɪlpaʊər/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "Control exerted to do something or restrain impulses.",
+ "example": "It takes a lot of willpower to quit smoking."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To exert willpower; to force oneself to do something (informal).",
+ "example": "He willpowered his way through the exhaustion."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "willpower",
+ "past": "willpowered",
+ "past_participle": "willpowered",
+ "present_participle": "willpowering",
+ "third_person": "willpowers"
+ },
+ "synonyms": ["determination", "resolve", "self-control", "discipline", "drive"],
+ "antonyms": ["weakness", "indecision", "instability"],
+ "usage_examples": [
+ "She has amazing willpower.",
+ "He lost the willpower to continue the diet."
+ ]
+}

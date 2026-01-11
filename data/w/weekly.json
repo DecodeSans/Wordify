@@ -1,0 +1,38 @@
+{
+ "word": "weekly",
+ "phonetic": "/ˈwiːkli/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Done, produced, or occurring once a week.",
+ "example": "A weekly report."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "A newspaper or periodical issued every week.",
+ "example": "He reads the local weekly."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To make weekly; to schedule on a weekly basis (rare/non-standard).",
+ "example": "We decided to weekly the meetings."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "weekly",
+ "past": "weeklied",
+ "past_participle": "weeklied",
+ "present_participle": "weeklying",
+ "third_person": "weeklies"
+ },
+ "synonyms": ["once a week", "every week"],
+ "antonyms": ["daily", "monthly", "yearly"],
+ "usage_examples": [
+ "The magazine is published weekly.",
+ "She receives a weekly allowance."
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "word": "witness",
+ "phonetic": "/ˈwɪtnɪs/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A person who sees an event, typically a crime or accident, take place.",
+ "example": "Police are appealing for witnesses to the accident."
+ },
+ {
+ "definition": "Evidence or proof.",
+ "example": "The empty room was a silent witness to the tragedy."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "See (an event, typically a crime or accident) take place.",
+ "example": "Several people witnessed the attack."
+ },
+ {
+ "definition": "Give or serve as evidence of; testify to.",
+ "example": "His will was witnessed by two lawyers."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "witness",
+ "past": "witnessed",
+ "past_participle": "witnessed",
+ "present_participle": "witnessing",
+ "third_person": "witnesses"
+ },
+ "synonyms": ["observer", "onlooker", "spectator", "testify", "attest"],
+ "antonyms": [],
+ "usage_examples": [
+ "She was a key witness for the prosecution.",
+ "I witnessed the whole thing from my window."
+ ]
+}

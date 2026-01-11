@@ -1,0 +1,36 @@
+{
+ "word": "workout",
+ "phonetic": "/ˈwɜːrkaʊt/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A session of vigorous physical exercise or training.",
+ "example": "She does a daily workout at the gym."
+ },
+ {
+ "definition": "A test of one's ability, endurance, or tolerance.",
+ "example": "The steep hill gave the car a real workout."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To engage in a workout; to exercise (informal).",
+ "example": "I workout every morning."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "workout",
+ "past": "workouted",
+ "past_participle": "workouted",
+ "present_participle": "workouting",
+ "third_person": "workouts"
+ },
+ "synonyms": ["exercise", "training", "drill", "practice", "session"],
+ "antonyms": ["rest", "inactivity"],
+ "usage_examples": [
+ "I had a great workout this morning.",
+ "This is a good workout for your legs."
+ ]
+}

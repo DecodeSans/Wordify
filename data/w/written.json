@@ -1,0 +1,46 @@
+{
+ "word": "written",
+ "phonetic": "/ˈrɪtən/",
+ "part_of_speech": ["adjective", "verb", "noun"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Expressed in writing rather than speech.",
+ "example": "A written warning."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Mark (letters, words, or other symbols) on a surface, typically paper, with a pen, pencil, or similar implement.",
+ "example": "He wrote his name on the paper."
+ },
+ {
+ "definition": "Compose, write, and send (a letter) to someone.",
+ "example": "I wrote to him yesterday."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The activity or skill of marking coherent words on paper and composing text.",
+ "example": "She teaches reading and writing."
+ },
+ {
+ "definition": "Something written, especially a literary composition.",
+ "example": "The writings of Shakespeare."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "write",
+ "past": "wrote",
+ "past_participle": "written",
+ "present_participle": "writing",
+ "third_person": "writes"
+ },
+ "synonyms": ["recorded", "documented", "inscribed", "penned", "drafted"],
+ "antonyms": ["spoken", "oral", "verbal", "unwritten"],
+ "usage_examples": [
+ "The agreement was written in English.",
+ "She has written several books."
+ ]
+}

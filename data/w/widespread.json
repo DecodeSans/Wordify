@@ -1,0 +1,38 @@
+{
+ "word": "widespread",
+ "phonetic": "/ˈwaɪdsprɛd/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Found or distributed over a large area or number of people.",
+ "example": "There was widespread support for the proposal."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The quality or state of being widespread.",
+ "example": "The widespreadness of the panic was evident."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To make widespread; to spread widely (rare/non-standard).",
+ "example": "They aimed to widespread the new policy."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "widespread",
+ "past": "widespreaded",
+ "past_participle": "widespreaded",
+ "present_participle": "widespreading",
+ "third_person": "widespreads"
+ },
+ "synonyms": ["extensive", "universal", "common", "general", "prevalent"],
+ "antonyms": ["limited", "local", "rare", "narrow"],
+ "usage_examples": [
+ "The storm caused widespread damage.",
+ "There is widespread agreement on this issue."
+ ]
+}

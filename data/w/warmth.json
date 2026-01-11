@@ -1,0 +1,40 @@
+{
+ "word": "warmth",
+ "phonetic": "/wɔːrmθ/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The quality, state, or sensation of being warm; moderate heat.",
+ "example": "The warmth of the sun on her face."
+ },
+ {
+ "definition": "Intensity of emotion, especially friendliness or enthusiasm.",
+ "example": "She spoke with great warmth."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Make or become warm.",
+ "example": "I warmed my hands by the fire."
+ },
+ {
+ "definition": "Make (someone) enthusiastic or interested.",
+ "example": "The audience was warming to the speaker."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "warm",
+ "past": "warmed",
+ "past_participle": "warmed",
+ "present_participle": "warming",
+ "third_person": "warms"
+ },
+ "synonyms": ["heat", "glow", "friendliness", "kindness", "affection"],
+ "antonyms": ["cold", "chill", "coolness", "hostility"],
+ "usage_examples": [
+ "The blanket provided some warmth.",
+ "We were touched by the warmth of their welcome."
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "word": "workshop",
+ "phonetic": "/ˈwɜːrkʃɒp/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A room or building in which goods are manufactured or repaired.",
+ "example": "He has a carpentry workshop in the garage."
+ },
+ {
+ "definition": "A meeting at which a group of people engage in intensive discussion and activity on a particular subject or project.",
+ "example": "A workshop on time management."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To present a performance of (a dramatic work) in a workshop; to develop (something) in a workshop.",
+ "example": "They workshopped the play for months."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "workshop",
+ "past": "workshopped",
+ "past_participle": "workshopped",
+ "present_participle": "workshopping",
+ "third_person": "workshops"
+ },
+ "synonyms": ["studio", "seminar", "class", "symposium", "atelier"],
+ "antonyms": [],
+ "usage_examples": [
+ "The artist has a workshop in the city center.",
+ "We attended a writers' workshop."
+ ]
+}

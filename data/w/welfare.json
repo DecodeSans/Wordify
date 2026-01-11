@@ -1,0 +1,36 @@
+{
+ "word": "welfare",
+ "phonetic": "/ˈwɛlfɛər/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The health, happiness, and fortunes of a person or group.",
+ "example": "They are concerned about the welfare of the children."
+ },
+ {
+ "definition": "Statutory procedure or social effort designed to promote the basic physical and material well-being of people in need.",
+ "example": "The protection of rights to education, housing, and welfare."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To provide with welfare or assistance (rare/non-standard).",
+ "example": "The organization welfared the displaced families."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "welfare",
+ "past": "welfared",
+ "past_participle": "welfared",
+ "present_participle": "welfaring",
+ "third_person": "welfares"
+ },
+ "synonyms": ["well-being", "health", "happiness", "prosperity", "safety"],
+ "antonyms": ["hardship", "misery", "suffering"],
+ "usage_examples": [
+ "The state has a duty to ensure the welfare of its citizens.",
+ "He donated money to animal welfare charities."
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "word": "wonder",
+ "phonetic": "/ˈwʌndər/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A feeling of surprise and admiration caused by something beautiful, unexpected, or unfamiliar.",
+ "example": "He observed the intricacy of the ironwork with the wonder of a child."
+ },
+ {
+ "definition": "A person or thing regarded as very good, remarkable, or effective.",
+ "example": "She is a wonder."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Desire or be curious to know something.",
+ "example": "I wonder what she is doing now."
+ },
+ {
+ "definition": "Feel admiration and amazement; marvel.",
+ "example": "People wondered at the change in him."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "wonder",
+ "past": "wondered",
+ "past_participle": "wondered",
+ "present_participle": "wondering",
+ "third_person": "wonders"
+ },
+ "synonyms": ["awe", "admiration", "marvel", "curiosity", "ponder"],
+ "antonyms": ["disinterest", "apathy", "indifference"],
+ "usage_examples": [
+ "I wonder if it will rain today.",
+ "The Seven Wonders of the World."
+ ]
+}

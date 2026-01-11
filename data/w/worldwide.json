@@ -1,0 +1,38 @@
+{
+ "word": "worldwide",
+ "phonetic": "/ˌwɜːrldˈwaɪd/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Extending or reaching throughout the world.",
+ "example": "A worldwide recession."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The quality or state of extending throughout the world.",
+ "example": "The worldwide of the movement is undeniable."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To make worldwide; to expand globally (rare/non-standard).",
+ "example": "They aim to worldwide their operations."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "worldwide",
+ "past": "worldwided",
+ "past_participle": "worldwided",
+ "present_participle": "worldwiding",
+ "third_person": "worldwides"
+ },
+ "synonyms": ["global", "universal", "international", "widespread"],
+ "antonyms": ["local", "regional", "domestic"],
+ "usage_examples": [
+ "The band has a worldwide following.",
+ "This is a worldwide problem."
+ ]
+}

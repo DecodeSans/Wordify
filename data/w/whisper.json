@@ -1,0 +1,40 @@
+{
+ "word": "whisper",
+ "phonetic": "/ˈwɪspər/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Speak very softly using one's breath without one's vocal cords, especially for the sake of privacy.",
+ "example": "She whispered a secret in my ear."
+ },
+ {
+ "definition": "Make a soft rustling sound.",
+ "example": "The wind whispered through the trees."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "A soft or confidential tone of voice; a whispered word or phrase.",
+ "example": "He spoke in a whisper."
+ },
+ {
+ "definition": "A soft rustling sound.",
+ "example": "The whisper of the leaves."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "whisper",
+ "past": "whispered",
+ "past_participle": "whispered",
+ "present_participle": "whispering",
+ "third_person": "whispers"
+ },
+ "synonyms": ["murmur", "mutter", "mumble", "hush", "undertone"],
+ "antonyms": ["shout", "scream", "yell", "roar"],
+ "usage_examples": [
+ "She whispered the answer to me.",
+ "There was a whisper of scandal about him."
+ ]
+}

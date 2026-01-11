@@ -1,0 +1,46 @@
+{
+ "word": "willing",
+ "phonetic": "/ˈwɪlɪŋ/",
+ "part_of_speech": ["adjective", "noun", "verb"],
+ "meanings": {
+ "adjective": [
+ {
+ "definition": "Ready, eager, or prepared to do something.",
+ "example": "He was quite willing to compromise."
+ },
+ {
+ "definition": "Given or done readily.",
+ "example": "Willing helpers."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "The act of one who wills or chooses.",
+ "example": "The willing of the goal implies the willing of the means."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Intend, desire, or wish (something) to happen.",
+ "example": "He willed himself to keep going."
+ },
+ {
+ "definition": "Bequeath something to someone by the terms of a will.",
+ "example": "She willed her estate to the charity."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "will",
+ "past": "willed",
+ "past_participle": "willed",
+ "present_participle": "willing",
+ "third_person": "wills"
+ },
+ "synonyms": ["ready", "eager", "prepared", "inclined", "disposed"],
+ "antonyms": ["unwilling", "reluctant", "averse"],
+ "usage_examples": [
+ "I am willing to help you.",
+ "She is a willing participant."
+ ]
+}

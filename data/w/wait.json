@@ -1,0 +1,36 @@
+{
+ "word": "wait",
+ "phonetic": "/weɪt/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Stay where one is or delay action until a particular time or until something else happens.",
+ "example": "We waited for the train."
+ },
+ {
+ "definition": "Remain in readiness for some purpose.",
+ "example": "The car is waiting for you."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "A period of waiting.",
+ "example": "We had a long wait for the bus."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "wait",
+ "past": "waited",
+ "past_participle": "waited",
+ "present_participle": "waiting",
+ "third_person": "waits"
+ },
+ "synonyms": ["pause", "delay", "stay", "remain", "linger"],
+ "antonyms": ["leave", "depart", "act", "proceed"],
+ "usage_examples": [
+ "Please wait a moment.",
+ "I can't wait to see you."
+ ]
+}

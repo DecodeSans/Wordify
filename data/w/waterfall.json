@@ -1,0 +1,32 @@
+{
+ "word": "waterfall",
+ "phonetic": "/ˈwɔːtərfɔːl/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A cascade of water falling from a height, formed when a river or stream flows over a precipice or steep incline.",
+ "example": "The waterfall cascaded down the rocks."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To fall in or like a waterfall; to cascade.",
+ "example": "Her hair waterfalled down her back."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "waterfall",
+ "past": "waterfalled",
+ "past_participle": "waterfalled",
+ "present_participle": "waterfalling",
+ "third_person": "waterfalls"
+ },
+ "synonyms": ["cascade", "cataract", "falls", "chute", "pour", "flow"],
+ "antonyms": ["rise", "ascend"],
+ "usage_examples": [
+ "We hiked to the hidden waterfall.",
+ "The sound of the waterfall was very relaxing."
+ ]
+}

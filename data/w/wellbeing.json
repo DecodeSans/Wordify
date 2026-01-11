@@ -1,0 +1,32 @@
+{
+ "word": "wellbeing",
+ "phonetic": "/ˌwɛlˈbiːɪŋ/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "The state of being comfortable, healthy, or happy.",
+ "example": "To improve the physical and mental wellbeing of the community."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "To promote or ensure the wellbeing of (rare/non-standard).",
+ "example": "The initiative aims to wellbeing the local population."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "wellbeing",
+ "past": "wellbeinged",
+ "past_participle": "wellbeinged",
+ "present_participle": "wellbeinging",
+ "third_person": "wellbeings"
+ },
+ "synonyms": ["welfare", "health", "happiness", "comfort", "prosperity"],
+ "antonyms": ["illness", "misery", "discomfort", "unhappiness"],
+ "usage_examples": [
+ "Yoga can improve your sense of wellbeing.",
+ "The company cares about the wellbeing of its employees."
+ ]
+}

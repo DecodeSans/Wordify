@@ -1,0 +1,36 @@
+{
+ "word": "wander",
+ "phonetic": "/ˈwɒndər/",
+ "part_of_speech": ["verb", "noun"],
+ "meanings": {
+ "verb": [
+ {
+ "definition": "Walk or move in a leisurely, casual, or aimless way.",
+ "example": "He wandered aimlessly through the streets."
+ },
+ {
+ "definition": "Move slowly away from a fixed point or place.",
+ "example": "His attention wandered."
+ }
+ ],
+ "noun": [
+ {
+ "definition": "An act or instance of wandering.",
+ "example": "She went for a wander in the woods."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "wander",
+ "past": "wandered",
+ "past_participle": "wandered",
+ "present_participle": "wandering",
+ "third_person": "wanders"
+ },
+ "synonyms": ["stroll", "roam", "ramble", "drift", "stray"],
+ "antonyms": ["stay", "remain", "settle"],
+ "usage_examples": [
+ "We wandered around the city for hours.",
+ "Don't let your mind wander during the exam."
+ ]
+}

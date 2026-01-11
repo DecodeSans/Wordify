@@ -1,0 +1,36 @@
+{
+ "word": "weapon",
+ "phonetic": "/ˈwɛpən/",
+ "part_of_speech": ["noun", "verb"],
+ "meanings": {
+ "noun": [
+ {
+ "definition": "A thing designed or used for inflicting bodily harm or physical damage.",
+ "example": "Nuclear weapons."
+ },
+ {
+ "definition": "A means of gaining an advantage or defending oneself in a conflict or contest.",
+ "example": "Resignation is the ultimate weapon."
+ }
+ ],
+ "verb": [
+ {
+ "definition": "Adapt (something) for use as a weapon.",
+ "example": "They weaponized the virus."
+ }
+ ]
+ },
+ "tense_forms": {
+ "base": "weaponize",
+ "past": "weaponized",
+ "past_participle": "weaponized",
+ "present_participle": "weaponizing",
+ "third_person": "weaponizes"
+ },
+ "synonyms": ["arm", "armament", "munition", "tool", "instrument"],
+ "antonyms": [],
+ "usage_examples": [
+ "The police found the murder weapon.",
+ "Words can be used as a weapon."
+ ]
+}
